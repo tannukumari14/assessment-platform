@@ -1,0 +1,65 @@
+body{
+  background-color: antiquewhite;
+}
+
+/* header css */
+
+.border-header{
+  background-color: white;
+  width: 1440px;
+  height: 72px;
+  border: 1px salmon solid;
+}
+
+.header{
+  padding:  18px 0px 18px 120px;
+  display: flex;
+  width: 112px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+.LogoGrp{
+  width: 112px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.QR{
+  padding: 24.33px 0px 18.67px 0px;
+  color:#8F887C;
+  font-family: "Josefin Sans";
+  font-size: 28.736px;
+  font-weight: 700;
+  letter-spacing: 1.437px;
+}
+
+.start-test{
+  padding: 29px 0px 21px 0px;
+  border: 1px solid red;
+}
+
+.start{
+  padding:51px 0px 21px 0px;
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.test{
+  padding:29px 0px 21px 0px;
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600; 
+}
+
+/* .score{
+  padding: 29px 115px 22px 20px;
+} */
