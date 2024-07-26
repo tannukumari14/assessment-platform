@@ -41,6 +41,7 @@ body {
   font-family: Inter;
   font-size: 14px;
   font-weight: 600;
+  text-decoration:none;
 }
 
 .score{
@@ -49,6 +50,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin-left: 15px;
+  text-decoration:none;
 }
 
 
@@ -166,4 +168,30 @@ body {
   border: 2px solid  #F4D150;
   background:  #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+/* footer */
+.footer{
+  display: flex;
+  margin: auto;
+  height: 171px;
+  flex-direction: column;
+  align-items: center;
+  gap: 57px;
+  background:  #4C4B49;
+  border: 1px solid #4C4B49;
+}
+
+.footer-p{
+  margin: 46px 0px 68px 0px;
+}
+
+.p-footer{
+  color:  #F9F7F2;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 18px;
 }

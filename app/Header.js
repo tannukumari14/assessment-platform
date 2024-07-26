@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Header = () => {
     return (
         <>
@@ -7,12 +9,12 @@ const Header = () => {
                     <img className="Logo" src="QA.png" />
                 </div>
                 <div className="header">
-                    <a className="start-test">
+                    <Link href="Start" className="start-test">
                         Start Test
-                    </a>
-                    <a className="score">
+                    </Link>
+                    <Link href="Score"className="score">
                         Score    
-                    </a>            
+                    </Link>            
                 </div>
             </div>
         </>

@@ -7,6 +7,7 @@ const Portal = () => {
                     <div className="Instructions">Instructions</div>
                     <div className="read-instructions">Please read the instructions carefully before you begin:</div>
                     <div className="li-ul">
+                    <ul>
                         <li>
                             Tiiming: The test is timed. You have [specified time] minutes to complete all questions.
                         </li>
@@ -25,6 +26,7 @@ const Portal = () => {
                         <li>
                             Review: After submission, you may review your answers and scores.
                         </li>
+                        </ul>
                     </div>
                     <div className="div-p">Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
                     <div className="let-start">
