@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-// import Portal from "./Portal";
+import Portal from "./Portal";
 
 const Page = () => {
   return (
   <>
     <Header />
-    {/* <Portal/> */}
+    <Portal/>
   </>
   )
 }

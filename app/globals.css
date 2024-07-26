@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background:  #EBE9E6;
 }
 
 /* header css */
@@ -52,106 +52,118 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .border-header{
-  background-color: white;
-  width: 1440px;
-  height: 72px;
-  border: 1px salmon solid;
-  margin: auto;
-}
- */
-
-/* 
-.header{
-  padding:  18px 0px 18px 120px;
-  display: flex;
-  width: 112px;
-  height: 36px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-
-.LogoGrp{
-  width: 112px;
-  height: 36px;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.QR{
-  padding: 24.33px 0px 18.67px 0px;
-  color:#8F887C;
-  font-family: "Josefin Sans";
-  font-size: 28.736px;
-  font-weight: 700;
-  letter-spacing: 1.437px;
-}
-
-.start-test{
-  padding: 29px 0px 21px 0px;
-  border: 1px solid red;
-}
-
-.start{
-  padding:51px 0px 21px 0px;
-  color:  #4C4B49;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.test{
-  padding:29px 0px 21px 0px;
-  color:  #4C4B49;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600; 
-}
-
-.score{
-  padding: 29px 115px 22px 20px;
-}  */
-
-
 /* portal */
-/* .portal{
-  padding:55px 628px 19px 628px ;
-  color:#4C4B49;
+.border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 368px 143px 367px;
+}
+
+.portal{
+  color:  #4C4B49;
   font-family: Inter;
   font-size: 24px;
   font-weight: 600;
-  line-height: 120%; 
-  letter-spacing: -0.48px;
-}
-
-.portal-box{
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  padding: 0px 368px 314px 367px;
-  border: 1px solid red;
+  text-align: center;
+  padding: 55px 0px 19px 0px;
+  
+}
+
+.portal-border{
+  background:  #F9F7F2;
+  /* border: 1px solid red; */
   width: 705px;
   height: 620px;
-} */
+}
+
+.Instructions{
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  /* border: 1px solid red; */
+  margin: 40px 116px 10px 117px;
+  width: 471px;
+  height: 22px;
+}
+
+.read-instructions{
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  /* border: 1px solid red; */
+  margin: 16px 116px 10px 117px;
+  width: 471px;
+  height: 21px;
+}
+
+.li-ul{
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  /* border: 1px solid red; */
+  margin: 8px 116px 10px 117px;
+  height: 231px;
+  width: 471px;
+}
+
+
+.div-p{
+  color: #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  /* border: 1px solid red; */
+  margin: 8px 116px 10px 117px;
+  height: 42px;
+  width: 471px;
+}
+
+.let-start{
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  /* border: 1px solid red; */
+  margin: 8px 116px 10px 117px;
+  height: 42px;
+  width: 471px;
+}
+
+.Good-luck{ 
+  color: #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400; 
+}
+
+.hr{
+  width: 620px;
+  height: 1px;
+  margin: 40px 42px 0px 43px;
+}
+
+.start-button{
+  margin: 39px 273px 49px 273px;
+  display: inline-flex;
+  padding: 16px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color:black;
+  border-radius: 4px;
+  border: #F4D150;
+  background:  #FEEEB4;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
