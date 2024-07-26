@@ -2,14 +2,17 @@ const Header = () => {
     return (
         <>
             <div className="border-header">
-                <div className="header">
-                    <img className="LogoGrp" src="LogoGrp.svg"/>
-                    <p className="QR">QR</p>
-                <div className="start-test">
-                    <a className="start">Start</a>
-                    <a className="test">Test</a>
+                <div>
+                    <img className="LogoGrp" src="LogoGrp.svg" />
+                    <img className="Logo" src="QA.png" />
                 </div>
-                <a className="score">Score</a>
+                <div className="header">
+                    <a className="start-test">
+                        Start Test
+                    </a>
+                    <a className="score">
+                        Score    
+                    </a>            
                 </div>
             </div>
         </>

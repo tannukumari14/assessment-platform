@@ -1,16 +1,85 @@
-body{
+* {
+  margin: 0px;
+}
+
+body {
   background-color: antiquewhite;
 }
 
 /* header css */
+.border-header {
+  background-color: white;
+  height: 72px;
+  justify-content: space-between;
+  display: flex;
+}
 
-.border-header{
+.LogoGrp {
+  width: 56px;
+  height: 36px;
+  padding: 18px 0px 18px 0px;
+  margin-left: 117px;
+
+}
+
+.Logo {
+  margin-left: 5px;
+  padding: 18px 0px 18px 0px;
+  font-size: 28.736px;
+  font-weight: 700;
+  margin-bottom: 5px;
+
+}
+
+.header{
+  display: flex;
+  padding: 29px 115px 22px 0px;
+}
+
+.start-test{
+  color: #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.score{
+  color:  #4C4B49;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .border-header{
   background-color: white;
   width: 1440px;
   height: 72px;
   border: 1px salmon solid;
+  margin: auto;
 }
+ */
 
+/* 
 .header{
   padding:  18px 0px 18px 120px;
   display: flex;
@@ -60,6 +129,29 @@ body{
   font-weight: 600; 
 }
 
-/* .score{
+.score{
   padding: 29px 115px 22px 20px;
+}  */
+
+
+/* portal */
+/* .portal{
+  padding:55px 628px 19px 628px ;
+  color:#4C4B49;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%; 
+  letter-spacing: -0.48px;
+}
+
+.portal-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 368px 314px 367px;
+  border: 1px solid red;
+  width: 705px;
+  height: 620px;
 } */
