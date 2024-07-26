@@ -163,7 +163,7 @@ body {
   gap: 10px;
   color:black;
   border-radius: 4px;
-  border: #F4D150;
+  border: 2px solid  #F4D150;
   background:  #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
 }
