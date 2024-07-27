@@ -64,6 +64,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 0px 368px 143px 367px;
+  width:1440px
 }
 
 .portal{
@@ -139,25 +140,25 @@ body {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
-  /* border: 1px solid red; */
   margin: 8px 116px 10px 117px;
   height: 42px;
   width: 471px;
 }
 
-.Good-luck{ 
+.good-luck{ 
   color: var(--Dark-b, #4C4B49);
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 150%; 
+  text-align: left;
 }
 
 .hr{
   width: 620px;
   height: 1px;
-  margin: 40px 42px px 43px;
+  margin: 40px 42px 0px 43px;
 }
 
 .start-button{
@@ -172,6 +173,7 @@ body {
   border: 2px solid  #F4D150;
   background:  #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
+  text-decoration:none;
 }
 
 /* footer */
@@ -215,6 +217,7 @@ body {
     height: 72px;
     justify-content: space-between;
     display: flex;
+
   }
 
   .LogoGrp {
@@ -306,6 +309,17 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align:left;
+    text-decoration:none;
+  }
+
+  .good-luck{ 
+    color: var(--Dark-b, #4C4B49);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-align: left;
   }
   
   .hr {
@@ -328,6 +342,7 @@ body {
     border: 2px solid #F4D150;
     background: #FEEEB4;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
+    text-decoration:none;
   }
 
   /* footer */
@@ -367,3 +382,107 @@ body {
   }
 }
 
+
+
+/* Start-Test */
+
+.submit-Start-Test{
+  margin: 8px 121.5px 8px 0px;
+  padding: 16px 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  border-radius: 4px;
+  border: 2px solid #F4D150;
+  background: #FEEEB4;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+.Component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.Component1{
+  fill: var(--Light-c, #EBE9E6);
+  stroke-width: 1px;
+  stroke: var(--Light-c, #EBE9E6);
+  width: 28px;
+  height: 28px;
+}
+
+.Component2{
+  fill: var(--Accent-Light, #FEEEB4);
+  stroke-width: 1px;
+  stroke: var(--Accent, #F4D150);
+  width: 28px;
+  height: 28px;
+}
+
+.circle1{
+  display: flex;
+  width: 30px;
+  padding: 7px 10px 6px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: var(--Dark-b, #4C4B49);
+  margin-left: 16px;
+}
+
+.circle{
+  display: flex;
+  width: 30px;
+  padding: 7px 10px 6px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border: 2px solid var(--Light-d, #E0DFDA);
+}
+
+
+.image{
+  display: flex;
+  width: 152px;
+  height: 180px;
+  padding: 0px 0.896px 0.237px 0.896px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid red;
+  width: 150px;
+  margin-top: 164px;
+}
+.clock{
+  width: 142px;
+  height: 142px;
+  flex-shrink: 0;
+  fill: var(--Light-b, #F9F7F2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.clock1{
+  width: 141px;
+  height: 141px;
+  flex-shrink: 0;
+  fill: var(--Error, #E68086);
+  margin:0.58px 0.34px 0.42px 0.66px;
+}
+
+.clock3{
+  width: 141px;
+  height: 141px;
+  flex-shrink: 0;
+  fill: var(--Light-c, #EBE9E6);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-top: -146px;
+}

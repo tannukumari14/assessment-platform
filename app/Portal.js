@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Portal = () => {
     return (
         <>
@@ -31,11 +33,11 @@ const Portal = () => {
                     <div className="div-p">Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
                     <div className="let-start">
                         Click 'Let's Start' to begin the test.
-                        <br className="good-luck"></br>Good luck!
+                        <div className="good-luck">Good Luck!</div>
                     </div>
                     <hr className="hr"></hr>
                     <div>
-                    <button className="start-button">Let's Start</button>
+                    <Link href="Start-Test" className="start-button">Let's Start</Link>
                     </div>
                 </div>
             </div>

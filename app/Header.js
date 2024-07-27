@@ -9,7 +9,7 @@ const Header = () => {
                     <img className="Logo" src="QA.png" />
                 </div>
                 <div className="header">
-                    <Link href="Start" className="start-test">
+                    <Link href="Start-Test" className="start-test">
                         Start Test
                     </Link>
                     <Link href="Score"className="score">
