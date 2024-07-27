@@ -157,7 +157,7 @@ body {
 .hr{
   width: 620px;
   height: 1px;
-  margin: 40px 42px 0px 43px;
+  margin: 40px 42px px 43px;
 }
 
 .start-button{
@@ -242,7 +242,6 @@ body {
     align-items: center;
     text-align: center;
     margin: 34px 20px 0px 20px;
-    border: 1px solid red;
   }
 
   .portal {
@@ -278,10 +277,8 @@ body {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    border: 1px solid red;
     line-height: 150%;
     margin: 8px 0px 8px 0px;
-    text-align:left;
   }
 
   .li-ul{
@@ -289,7 +286,6 @@ body {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    border: 1px solid red;
     line-height: 150%;
     margin: 8px 0px 8px 0px;
     text-align:left;
@@ -299,7 +295,6 @@ body {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    border: 1px solid red;
     line-height: 150%;
     text-align:left;
     margin: 8px 0px 8px 0px;
@@ -310,13 +305,12 @@ body {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    border: 1px solid red;
     text-align:left;
   }
   
   .hr {
     width: 280px;
-    margin: 52px 20px 149px 20px;
+    margin: 52px 20px 39px 20px;
     height: 1px;
     background: #4C4B49;
     text-align: center;
@@ -337,17 +331,39 @@ body {
   }
 
   /* footer */
-  .footer {
-    height: auto;
-    padding: 20px 10px;
+  .footer{
+    display: flex;
+    margin: auto;
+    height: 171px;
+    flex-direction: column;
+    align-items: center;
+    gap: 57px;
+    background:  #4C4B49;
+    border: 1px solid #4C4B49;
+  }
+  
+  
+  .footer-p{
+    margin: 46px 35px 68px 36px;
+  }
+  
+  .p-footer{
+    color:  white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 18px;
   }
 
-  .footer-p {
-    margin: 20px 0;
-  }
-
-  .p-footer {
-    font-size: 16px;
+  .p{
+    color:  #F9F7F2;
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
   }
 }
 
