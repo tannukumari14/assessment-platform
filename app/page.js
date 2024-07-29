@@ -5,11 +5,13 @@ import Footer from "./Footer";
 
 const Page = () => {
   return (
-  <>
-    <Header />
-    <Portal/>
-    <Footer/>
-  </>
+    <>
+      <div className="container">
+        <Header />
+        <Portal />
+        <Footer />
+      </div>
+    </>
   )
 }
 export default Page;
