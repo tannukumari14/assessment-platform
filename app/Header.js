@@ -3,7 +3,7 @@
 const Header = () => {
     return (
         <>
-            <div className="border-header">
+            <div className="border-header assessment">
                 <div>
                     <img className="LogoGrp" src="LogoGrp.svg" />
                     <img className="Logo" src="QA.png" />
