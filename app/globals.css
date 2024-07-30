@@ -4,7 +4,7 @@
 
 body {
   background:  #EBE9E6;
-  width: 1440px;
+  width: 1200px;
 }
 
 @media  screen and (min-width: 480px){
@@ -13,48 +13,45 @@ body {
 .border-header {
   background-color: white;
   height: 72px;
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .LogoGrp {
   width: 56px;
-  height: 36px;
-  padding: 18px 0px 18px 0px;
-  margin-left: 117px;
-
 }
 
 .Logo {
-  margin-left: 5px;
-  padding: 18px 0px 18px 0px;
   font-size: 28.736px;
   font-weight: 700;
   margin-bottom: 5px;
+  margin-left: 5px;
 
 }
 
-.header{
+/* .header{
   display: flex;
   padding: 29px 115px 22px 0px;
-}
-
+} */
+/* 
 .start-test{
   color: #4C4B49;
   font-family: Inter;
   font-size: 14px;
   font-weight: 600;
   text-decoration:none;
-}
+} */
 
-.score{
+/* .score{
   color:  #4C4B49;
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   margin-left: 15px;
   text-decoration:none;
-}
+} */
 
 
 /* portal */
@@ -230,12 +227,12 @@ body {
     margin-bottom: 24px;
     margin-left: -18px;
   }
-
+/* 
   .header {
     display: flex;
     padding: 20px 10px;
     display: none;
-  }
+  } */
 
 
   /* portal */
