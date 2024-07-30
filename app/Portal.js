@@ -37,7 +37,7 @@ const Portal = () => {
                     </div>
                     <hr className="hr"></hr>
                     <div>
-                    <Link href="Start-Test" className="start-button">Let's Start</Link>
+                    <Link href="assessment" className="start-button">Let's Start</Link>
                     </div>
                 </div>
             </div>

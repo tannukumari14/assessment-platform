@@ -1,4 +1,4 @@
-const StartTest = () => { 
+const Assessment = () => { 
     return(
         <>
             <div className="border-header">
@@ -23,4 +23,4 @@ const StartTest = () => {
         </>
     )
 };
-export default StartTest;
+export default Assessment;

@@ -9,10 +9,10 @@ const Header = () => {
                     <img className="Logo" src="QA.png" />
                 </div>
                 <div className="header">
-                    <Link href="Start-Test" className="start-test">
+                    <Link href="assessment" className="start-test">
                         Start Test
                     </Link>
-                    <Link href="Score"className="score">
+                    <Link href="score"className="score">
                         Score    
                     </Link>            
                 </div>
