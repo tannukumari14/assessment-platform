@@ -1,6 +1,20 @@
+"use client"
+import styles from './CountdownClock.module.css';
+import { useState, useEffect } from 'react';
 
-import CountdownClock from './CountdownClock';
+
 const Assessment_Header = () => { 
+    const [time, setTime] = useState("50 : 20");
+
+    useEffect(() => {
+        const updateTime = () => {
+          setTime("50 : 20");
+        };
+    
+        const interval = setInterval(updateTime, 1000);
+        return () => clearInterval(interval);
+      }, []);
+    
     return(
         <>
             <div className="assessment-header">
@@ -10,7 +24,14 @@ const Assessment_Header = () => {
                 </div>
                 <div className="clock">
                     <div className="timer">
-                        <CountdownClock/>
+                        <div className={styles.clockContainer}>
+                            <div className={styles.clock}>
+                            <div className={styles.progress}></div>
+                            <div className={styles.time}>50:20</div>
+                            <div className={styles.label}>min Sec</div>
+                        </div>
+                            <div className={styles.remainingTimeLabel}>Remaining Time</div>
+                        </div>
                     </div>
                 </div>
                 <div className="box">

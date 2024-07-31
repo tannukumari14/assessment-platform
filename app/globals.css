@@ -376,7 +376,7 @@ width: 360px;
   background:  #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
   width: 130px;
-  margin-left: 29px;
+  margin-right: 200px;
 }
 
 .clock{
@@ -387,7 +387,8 @@ width: 360px;
   gap: 8px;
   height: 180px;
   /* width: 150px; */
-  margin-top: 155px;
+  /* margin-top: 155px; */
+  margin-top: 75px;
   margin-left: 87px;
 }
 
@@ -400,3 +401,152 @@ width: 360px;
   align-items: center;
 }
 
+
+/* assessment_question_page */
+.Page-header{
+  width: 1200px;
+  border: 1px solid #4C4B49;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin:83px 0px 0px 235px;
+}
+
+.outer-border{
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter{
+  width: 284px;
+  border-radius: 12px;
+  border: 1px dashed var(--Dark-c, #777671);
+  background: var(--Light-b, #F9F7F2);
+  margin-right: 50px;
+}
+
+.question-border{
+  width: 560px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border: #4C4B49;
+  background-color: #F4D150;
+}
+
+.filter-p{
+  width: 190px;
+  color: var(--Dark-b, #4C4B49);
+  font-family: "Inria Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 36px 49px 36px 38px;
+}
+
+
+.assessment-border{
+  width:104px;
+  color: var(--Dark-a, #1F1E1C);
+  font-family: "Inria Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 0px 48px 36px;
+}
+
+.assessment-p{
+  width: 148px;
+  color: var(--Dark-a, #1F1E1C);
+  font-family: "Inria Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 0px 48px 36px;
+}
+
+.filter-numbers{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: -30px 0px 48px 36px;
+}
+
+.all{
+  display: flex;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--Dark-b, #4C4B49);
+  background: var(--Dark-b, #4C4B49);
+}
+
+.numbers{
+  display: flex;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--Accent, #F4D150);
+  background: var(--Accent-Light, #FEEEB4);
+}
+
+.div{
+  margin: -30px 0px 48px 36px;
+  border-radius: 12px;
+  border: 1px dashed var(--Dark-c, #777671);
+  background: var(--Light-b, #F9F7F2);
+}
+
+.all40{
+  width: 67px;
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 54px;
+  border: 1px solid var(--Dark-b, #4C4B49);
+  background: var(--Dark-b, #4C4B49);
+}
+
+.un{
+  width: 109px;
+  display: flex;
+  padding: 6px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 54px;
+  border: 1px solid var(--Accent, #F4D150);
+  background: var(--Accent-Light, #FEEEB4);
+  margin-left: 70px;
+  margin-top: -31px;
+}
+
+.attemp{
+  width: 132px;
+  display: flex;
+  padding: 6px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 54px;
+  border: 1px solid var(--Accent, #F4D150);
+  background: var(--Accent-Light, #FEEEB4);
+  margin-top: 10px;
+}
