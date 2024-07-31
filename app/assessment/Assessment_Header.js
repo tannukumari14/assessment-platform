@@ -1,3 +1,5 @@
+
+import CountdownClock from './CountdownClock';
 const Assessment_Header = () => { 
     return(
         <>
@@ -5,6 +7,11 @@ const Assessment_Header = () => {
                 <div className="images">
                     <img className="logo1" src="LogoGrp.svg" />
                     <img className="logo2" src="QA.png" />
+                </div>
+                <div className="clock">
+                    <div className="timer">
+                        <CountdownClock/>
+                    </div>
                 </div>
                 <div className="box">
                     <img className="prvious" src="Component1.svg" />
