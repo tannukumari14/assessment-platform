@@ -382,7 +382,7 @@ width: 360px;
 }
 
 .clock{
-  border: 1px solid #4C4B49;
+  /* border: 1px solid #4C4B49; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -407,7 +407,7 @@ width: 360px;
 /* assessment_question_page */
 .Page-header{
   width: 1200px;
-  border: 1px solid #4C4B49;
+  /* border: 1px solid #4C4B49; */
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -440,7 +440,7 @@ width: 360px;
   gap: 40px;
   border: #4C4B49;
   /* background-color: #F4D150; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .filter-p{
@@ -566,7 +566,6 @@ width: 360px;
   margin: 0;
   padding: 0;
 }
-
 
 .contaniers-questions{
   width: 560px;
@@ -712,7 +711,7 @@ width: 360px;
   height: 100vh;
   margin: auto;
   text-align: center;
-  border: 1px solid #4C4B49;
+  /* border: 1px solid #4C4B49; */
   width: 705px;
   height: 516px;
   background: var(--Light-b, #F9F7F2);
@@ -726,42 +725,49 @@ width: 360px;
   margin-top: -390px;
 }
 
+.content{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  /* border: 1px solid red; */
+  width: 319px;
+  margin-top: -122px;
+}
+
 .successfuly{
   color: var(--Dark-a, #1F1E1C);
   font-family: Inter;
   font-size: 24px;
+  font-style: normal;
   font-weight: 600;
-  line-height: 120%;
+  line-height: 120%; 
   letter-spacing: -0.48px;
-  margin-top: -250px;
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  margin-bottom: 20px; 
 }
 
 .thankyou{
   color: #000;
-  font-family: Inter;
-  /* width: 319px; */
-  /* font-size: 14px; */
-  font-weight: 600;
-  /* line-height: 160%; */
-  margin-bottom: 20px; 
   text-align: center;
-
-}
-.review{
-  color: #000;
   font-family: Inter;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  margin-bottom: 30px; 
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; 
+  margin-bottom: -16px;
 }
 
-.submit-btn{     
-  width: 222px;
+.review{
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+
+
+.submit-btn{
   display: inline-flex;
   padding: 16px 35px;
   justify-content: center;
@@ -771,5 +777,11 @@ width: 360px;
   border: 2px solid var(--Accent, #F4D150);
   background: var(--Accent-Light, #FEEEB4);
   box-shadow: 0px 4px 7px 0px #B3AE9C;
-  margin-bottom:-108px; 
+  margin-top: 30px;
+  color: var(--Dark-a, #1F1E1C);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
