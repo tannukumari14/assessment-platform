@@ -1,8 +1,16 @@
-const Score = () => { 
+import Footer from "../Footer";
+import Submit from "./Submit";
+import Header from "../Header";
+import "../globals.css";
+
+
+const page = () => {
     return(
         <>
-            <p>hi</p>
+        <Header/>
+        <Submit/>
+        <Footer/>
         </>
     )
-};
-export default Score;
+}
+export default page;

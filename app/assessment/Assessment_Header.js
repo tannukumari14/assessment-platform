@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import styles from './CountdownClock.module.css';
 import { useState, useEffect } from 'react';
 
@@ -46,7 +47,7 @@ const Assessment_Header = () => {
                     <a className="circle">8</a>
                     <img className="next" src="Component2.svg" />
                 </div>
-                <div className="submit-assessment" >Submit</div>
+                <Link href="score" className="submit-assessment" >Submit</Link>
             </div>
         </>
     )
