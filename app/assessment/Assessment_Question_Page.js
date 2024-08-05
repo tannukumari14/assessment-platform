@@ -26,7 +26,7 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +1</p>
                         </div>
                         <div className="contaniers-questions">
-                        <div className="question1">Which of the following committees recommended inclusion of fundamental duties ?</div>
+                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
                             <p className="option">Tarapore committee</p>
                             <p className="options">Radha Krishnan committee</p>
                             <p className="options">Swaran Singh committee</p>
@@ -37,21 +37,20 @@ const Assessment_Question_Page = () => {
                             <p className="question1">QUESTION 2</p>
                             <p className="score">Score +1</p>
                         </div>
-                        <div className="contaniers-questions">
-                        <div className="question1">Which of the following committees recommended inclusion of fundamental duties ?</div>
+                        <div className="container-questions">
+                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
                             <p className="option">Tarapore committee</p>
                             <p className="options">Radha Krishnan committee</p>
                             <p className="options">Swaran Singh committee</p>
                             <p className="options1">Balwantrai Mehta committee</p>
                         </div>
 
-
                         <div className="p-tag">
                             <p className="question1">QUESTION 3</p>
                             <p className="score">Score +1</p>
                         </div>
                         <div className="contaniers-questions">
-                        <div className="question1">Which of the following committees recommended inclusion of fundamental duties ?</div>
+                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
                             <p className="option">Tarapore committee</p>
                             <p className="options">Radha Krishnan committee</p>
                             <p className="options">Swaran Singh committee</p>
@@ -63,20 +62,19 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +1</p>
                         </div>
                         <div className="contaniers-questions">
-                        <div className="question1">Which of the following committees recommended inclusion of fundamental duties ?</div>
+                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
                             <p className="option">Tarapore committee</p>
                             <p className="options">Radha Krishnan committee</p>
                             <p className="options">Swaran Singh committee</p>
                             <p className="options1">Balwantrai Mehta committee</p>
                         </div>
 
-
                         <div className="p-tag">
                             <p className="question1">QUESTION 5</p>
                             <p className="score">Score +1</p>
                         </div>
                         <div className="contaniers-questions">
-                        <div className="question1">Which of the following committees recommended inclusion of fundamental duties ?</div>
+                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
                             <p className="option">Tarapore committee</p>
                             <p className="options">Radha Krishnan committee</p>
                             <p className="options">Swaran Singh committee</p>
@@ -85,9 +83,9 @@ const Assessment_Question_Page = () => {
                     </div>
                 </div>
             </div>
-            <div className="margin-assessment">
-            </div>
+            <div className="margin-assessment"></div>
         </>
-    )
+    );
 }
+
 export default Assessment_Question_Page;

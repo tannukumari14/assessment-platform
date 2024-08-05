@@ -12,7 +12,7 @@ const Portal = () => {
                         <div className="li-ul">
                             <ul>
                                 <li>
-                                    Tiiming: The test is timed. You have [specified time] minutes to complete all questions.
+                                    Timing: The test is timed. You have [specified time] minutes to complete all questions.
                                 </li>
                                 <li>
                                     Questions: The test comprises [number of questions] multiple-choice questions (MCQs).
@@ -47,4 +47,5 @@ const Portal = () => {
         </>
     );
 }
+
 export default Portal;

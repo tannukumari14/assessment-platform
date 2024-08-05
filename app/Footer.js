@@ -1,4 +1,4 @@
-const  Footer = () => {
+const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-p">
@@ -6,6 +6,7 @@ const  Footer = () => {
                 <p className="p">© Copyright, All Rights Reserved by Ungineering</p>
             </div>
         </div>
-    )
+    );
 }
+
 export default Footer;

@@ -7,11 +7,9 @@ import "./globals.css";
 const Page = () => {
   return (
     <>
-      {/* <div className="container"> */}
-        <Header />
-        <Portal />
-        <Footer />
-      {/* </div> */}
+      <Header />
+      <Portal />
+      <Footer />
     </>
   )
 }
