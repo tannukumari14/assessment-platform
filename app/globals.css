@@ -269,18 +269,13 @@ width: 360px;
   background:  #4C4B49;
   border: 1px solid #4C4B49;
 }
-
-
-.assessment-border{
-  margin: auto;
+.assessment-header{
   width: 360px;
-  background: #FCFAFA;
-  max-width: 1200px;
-  height: 72px;
+}
+.images{
+  margin-left: 1200px;
   justify-content: center;
-  display: flex;
   align-items: center;
-  text-align: center;
 }
 }
 
@@ -297,14 +292,19 @@ width: 360px;
 }
 
 .images{
-  margin: 18px 0px 18px 120px;
+  /* margin: 18px 0px 18px 120px; */
   display: flex;
+  align-items: center; 
+  text-align: center;
   width: 112px;
-  height: 36px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 36px;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
+  flex-shrink: 0; */
 }
+
 .logo1{
   margin-left: 120px;
 }
