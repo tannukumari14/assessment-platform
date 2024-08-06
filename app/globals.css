@@ -53,6 +53,10 @@ body {
   margin: auto;
 }
 
+.hightgapInstraction{
+  height: 40px;
+}
+
 .Instructions{
   color:  #4C4B49;
   font-family: Inter;
@@ -63,6 +67,7 @@ body {
   margin: auto;
   width: 471px;
   margin-bottom: 16px;
+  /* margin-top: 40px; */
 }
 
 .read-instructions{
@@ -74,7 +79,7 @@ body {
   width: 471px;
   margin: auto;
   width: 471px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .li-ul{
@@ -87,6 +92,7 @@ body {
   margin: auto;
   width: 471px;
   margin-bottom: 8px;
+  margin-left: 142px;
 }
 
 .div-p{
@@ -189,37 +195,30 @@ body {
   /* max-width: 1200px; */
   height: 72px;
   margin: 0 auto; 
-  justify-content: center;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
 .images{
-  /* margin: 18px 0px 18px 120px; */
+  margin: 18px 0px 18px 120px;
   display: flex;
   width: 112px;
-  height: 36px;
-  /* justify-content: center; */
   align-items: center;
-  flex-shrink: 0; 
-}
-
-.logo1{
-  margin-left: 120px;
 }
 
 .logo2{
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .box{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 16px;
-  /* margin-left: 235px; */
+  margin-left: 678px;
 }
+
 
 .prvious{
   fill:  #EBE9E6;
@@ -278,7 +277,6 @@ body {
   color: black;
   text-decoration: none;
 }
-
 
 /* assessment_question_page */
 .Page-header{
