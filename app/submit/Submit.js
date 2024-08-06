@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Submit = () => {
   return (
       <>
@@ -13,7 +15,7 @@ const Submit = () => {
                 </p>
             </div>
             <div className="btn">
-                <button className="submit-btn">Check Your Score</button>
+                <Link href="score" className="submit-btn">Check Your Score</Link>
             </div>
         </div>
       </>   

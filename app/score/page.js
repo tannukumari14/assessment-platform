@@ -1,15 +1,10 @@
-import Footer from "../Footer";
-import Submit from "./Submit";
-import Header from "../Header";
+import Score_Header from "./Score_Header"
 import "../globals.css";
 
-
-const page = () => {
+const page=()=>{
     return(
         <>
-        <Header/>
-        <Submit/>
-        <Footer/>
+        <Score_Header/>
         </>
     )
 }
