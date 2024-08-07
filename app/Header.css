@@ -1,0 +1,22 @@
+.border-header {
+  background: #FCFAFA;
+  height: 72px;
+  margin: 0 auto; 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+  
+.LogoGrp {
+  width: 56px;
+}
+  
+.Logo {
+  font-size: 28.736px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+  
+  

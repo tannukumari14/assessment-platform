@@ -1,0 +1,118 @@
+/* portal */
+.portal{
+    text-align: center;
+    padding: 55px 0px 19px 0px;
+    color:  #4C4B49;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%; 
+    letter-spacing: -0.48px;
+    margin-bottom: 12px; 
+  }
+  
+  .border {
+    width: 705px;
+    height: 620px;
+    background: #FCFAFA;
+    margin: auto;
+  }
+  
+  .hightgapInstraction{
+    height: 40px;
+  }
+  
+  .Instructions{
+    color:  #4C4B49;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    width: 471.997px;
+    line-height: 150%;
+    margin: auto;
+    width: 471px;
+    margin-bottom: 16px;
+  }
+  
+  .read-instructions{
+    color:  #4C4B49;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 471px;
+    margin: auto;
+    width: 471px;
+    margin-bottom: 8px;
+  }
+  
+  .li-ul{
+    color: var(--Dark-b, #4C4B49);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: auto;
+    width: 471px;
+    margin-bottom: 8px;
+    margin-left: 142px;
+  }
+  
+  .div-p{
+    color: var(--Dark-b, #4C4B49);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: auto;
+    width: 471px;
+    margin-bottom: 8px;
+  }
+  
+  .let-start{
+    color: var(--Dark-b, #4C4B49);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: auto;
+    width: 471px;
+  }
+  
+  .good-luck{ 
+    color: var(--Dark-b, #4C4B49);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+    margin: auto;
+    width: 471px;
+  }
+  
+  .hr{
+    width: 620px;
+    height: 1px;
+    margin: 40px 42px 0px 43px;
+  }
+  
+  .start-button{
+    margin: 39px 273px 49px 273px;
+    display: inline-flex;
+    padding: 16px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:black;
+    border-radius: 4px;
+    border: 2px solid  #F4D150;
+    background:  #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+    text-decoration:none;
+  }
+  
+  .margin{
+    margin: 143px;
+  }

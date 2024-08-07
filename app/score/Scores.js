@@ -1,3 +1,5 @@
+import "./Scores.css";
+
 const Scores=()=>{
     return(
         <>

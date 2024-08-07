@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import "./Submit.css";
 
 const Submit = () => {
   return (
