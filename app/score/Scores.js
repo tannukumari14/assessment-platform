@@ -10,12 +10,12 @@ const Scores=()=>{
                 <img src="exmilatio.svg"></img>
                 <p>Unattempted: 3</p>
             </div>
-            <hr></hr>
+            <hr className="hrs"></hr>
             <div className="image-text">
                 <img src="Check.png"></img>
                 <p>Correct: 35</p>
             </div>
-            <hr></hr>
+            <hr className="hrs"></hr>
             <div className="image-text">
                 <img src="wrong.svg"></img>
                 <p>Wrong: 2</p>
