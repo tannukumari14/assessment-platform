@@ -797,3 +797,49 @@ width: 360px;
 }
 }
 
+/* scores */
+.base{
+  width: 625px;
+  height: 165px;
+  border-radius: 12px;
+  border: 1px solid  #8F887C;
+  background:  #4C4B49;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.h1-score{
+  color: #EBE9E6;
+  margin: 52px 50.5px 73px 5.5px;
+}
+
+
+.Unattempted{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #EBE9E6;
+  margin: 52px 0px 73px -0.5px;
+}
+
+hr{
+  width: 55px;
+  height: 0px;
+  transform: rotate(90deg);
+  stroke-width: 1px;
+  stroke: var(--Dark-d, #8F887C);
+  margin-top: 88px;
+}
+
+.image-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 58px;
+  color: #EBE9E6;
+}
+
