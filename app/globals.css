@@ -276,7 +276,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin:83px 0px 0px 235px;
+  margin:83px 0px 0px 355px;
   color: #E0DFDA;
 }
 
@@ -672,23 +672,6 @@ body {
   margin-left: 10px; 
 }
 
-.start-test{
-  margin-left: 1199px; 
-  width: 66px;
-  color: var(--Dark-b, #4C4B49);
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.score-s{
-  margin-left: 20px;
-  width: 40px;
-  color: var(--Dark-b, #4C4B49);
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600;
-}
 
 /* mobile view */
 @media (max-width: 767px) {
