@@ -1,5 +1,3 @@
-"use client";
-// import Link from 'next/link';
 import Pagination from './Pagination';
 
 const Assessment_Header = () => { 

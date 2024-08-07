@@ -1,4 +1,5 @@
-// import "./Assessment_Question_Page.css";
+import "./Assessment_Question_Page.css";
+
 const Assessment_Question_Page = () => {
     return (
         <>
