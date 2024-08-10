@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   box-sizing: border-box;
 }
 
@@ -31,8 +31,8 @@ body {
 
 
 /* mobile view */
-@media (max-width: 767px) {
-
+@media (max-width: 360px) {
+  
   /* header */
 .border-header{
 margin: auto;
@@ -56,7 +56,6 @@ width: 360px;
   color:  #4C4B49;
   font-family: Inter;
   font-size: 18px;
-  font-weight: 700;
   text-align: center;
   width: 280px;
   margin-bottom: 16px;
@@ -136,3 +135,4 @@ width: 360px;
   margin-right: 131px;
 }
 }
+
