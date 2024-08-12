@@ -1,7 +1,6 @@
 
 /* check_answer */
 .checker{
-    /* border: 1px solid #4C4B49; */
     display: flex;
     width: 595px;
     flex-direction: column;

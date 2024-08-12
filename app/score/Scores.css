@@ -14,7 +14,9 @@
   
   .h1-score{
     color: #EBE9E6;
-    margin: 52px 50.5px 73px 5.5px;
+    margin-top: 52px;
+    margin-bottom: 73px;
+    margin-right: 50.5px;
   }
   
   
@@ -32,7 +34,7 @@
     height: 0px;
     transform: rotate(90deg);
     stroke-width: 1px;
-    stroke: var(--Dark-d, #8F887C);
+    stroke:  #8F887C;
     margin-top: 88px;
   }
   
@@ -45,3 +47,9 @@
     color: #EBE9E6;
   }
   
+
+  .div-for-score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
