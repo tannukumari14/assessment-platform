@@ -25,7 +25,7 @@ const Assessment_Question_Page = () => {
                     <div className="question-border">
                         <div className="p-tag">
                             <p className="question1">QUESTION 1</p>
-                            <p className="score">Score +1</p>
+                            <p className="score">Score +10</p>
                         </div>
                         <div className="container-questions">
                             <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
@@ -37,7 +37,7 @@ const Assessment_Question_Page = () => {
 
                         <div className="p-tag">
                             <p className="question1">QUESTION 2</p>
-                            <p className="score">Score +1</p>
+                            <p className="score">Score +15</p>
                         </div>
                         <div className="container-questions">
                             <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
@@ -49,7 +49,7 @@ const Assessment_Question_Page = () => {
 
                         <div className="p-tag">
                             <p className="question1">QUESTION 3</p>
-                            <p className="score">Score +1</p>
+                            <p className="score">Score +20</p>
                         </div>
                         <div className="container-questions">
                             <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
@@ -61,7 +61,7 @@ const Assessment_Question_Page = () => {
 
                         <div className="p-tag">
                             <p className="question1">QUESTION 4</p>
-                            <p className="score">Score +1</p>
+                            <p className="score">Score +10</p>
                         </div>
                         <div className="container-questions">
                             <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
@@ -73,7 +73,7 @@ const Assessment_Question_Page = () => {
 
                         <div className="p-tag">
                             <p className="question1">QUESTION 5</p>
-                            <p className="score">Score +1</p>
+                            <p className="score">Score +15</p>
                         </div>
                         <div className="container-questions">
                             <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
