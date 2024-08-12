@@ -14,8 +14,9 @@
     color:  #1F1E1C;
     font-family: "Inria Sans";
     font-weight: 700;
-    text-transform: uppercase;
+    font-size: 16px;
   }
+  
   .hr-line{
     width: 618px;
     height: 2px;
@@ -24,7 +25,6 @@
   }
   
   .scores-border{
-    /* border: 1px solid #4C4B49; */
     display: flex;
     width: 595px;
     flex-direction: column;
@@ -43,6 +43,7 @@
     margin-top: 3px;
     margin-bottom: 5px;
   }
+
   .image-container {
     position: relative;
     margin-left: 455px;
@@ -54,13 +55,15 @@
   
   .overlay-image {
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .line-hr{
-    width: 594px;
-    height: 2px;
-    background: black;
+    width: 580px;
+    height: 1px;
+    background: #8F887C;
     margin: auto;
   }
   

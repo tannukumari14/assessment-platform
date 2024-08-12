@@ -4,7 +4,7 @@ const Check_Answer=()=>{
     return(
         <>
         <div className="checker">
-            <p className="check-num">Check Your Answers</p>
+            <p className="check-num">CHECK YOUR ANSWERS</p>
             <div className="hr-line"></div>
             <div className="scores-border">
                 <div className="answers">

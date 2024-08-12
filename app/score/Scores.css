@@ -19,6 +19,13 @@
     margin-right: 50.5px;
   }
   
+  .div-for-score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 73px;
+  }
   
   .Unattempted{
     display: flex;
@@ -26,7 +33,6 @@
     align-items: center;
     gap: 8px;
     color: #EBE9E6;
-    margin: 52px 0px 73px -0.5px;
   }
   
   .hrs{
@@ -35,7 +41,7 @@
     transform: rotate(90deg);
     stroke-width: 1px;
     stroke:  #8F887C;
-    margin-top: 88px;
+    margin-top: 26px;
   }
   
   .image-text{
@@ -43,13 +49,7 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    margin-top: 58px;
     color: #EBE9E6;
   }
   
 
-  .div-for-score{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }

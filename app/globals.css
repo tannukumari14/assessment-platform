@@ -31,7 +31,6 @@ width: 360px;
   width: 320px;
   height: auto;
   background: #FCFAFA;
-  
 }
 
 .Instructions{
@@ -108,21 +107,48 @@ width: 360px;
 
 /* page 2 */
 /* assesment */
+
+/* assessment_header */
+.assessment-header{
+  background: #FCFAFA;
+  height: 72px;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.images{
+  margin: 18px 0px 18px 120px;
+  display: flex;
+  width: 112px;
+  align-items: center;
+}
+
+.logo2{
+  margin-left: 10px;
+}
+  
 .assessment-header{
   width: 360px;
 }
 .images{
   margin-left: 779px;
 }
+
+/* pagination */
 .box{
-  border: 1px solid red;
   width: 360px;
   height: 74px;
-  background-color: #FCFAFA;
-  margin-top: 113px;
-  margin-right: 131px;
+  margin-bottom:-145px;
+  margin-left: -234px; 
+  background-color:white;
 }
 
+.submit-assessment{
+  margin-left: -234px; 
+  margin-bottom:-1245px;
+}
 /* page 3 */
 /* Submit, submit */
 .submit-box{
@@ -189,6 +215,8 @@ width: 360px;
 .space{
   margin-bottom: 145px;
 }
+
+
 }
 
 
