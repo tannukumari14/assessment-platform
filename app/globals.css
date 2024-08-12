@@ -5,29 +5,10 @@
 }
 
 body {
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
   background: #EBE9E6;
 }
-
-/* score */
-/* .score-border{
-  background: #FCFAFA;
-  height: 72px;
-  margin: 0 auto; 
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.icon-images{
-  margin: 18px 0px 18px 120px;
-  display: flex;
-  width: 112px;
-  align-items: center;
-}
-
-.qa-image{
-  margin-left: 10px; 
-} */
 
 
 /* mobile view */
@@ -109,6 +90,10 @@ width: 360px;
 }
 
 /* footer */
+.p{
+  white-space: nowrap;
+}
+
 .footer{
   display: flex;
   margin: auto;
