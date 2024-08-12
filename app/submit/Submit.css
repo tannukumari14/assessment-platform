@@ -25,7 +25,7 @@
     margin-top: -275px;
   }
   
-  .successfuly{
+  .submit-successfully{
     color: var(--Dark-a, #1F1E1C);
     font-family: Inter;
     font-size: 24px;
@@ -36,7 +36,7 @@
     letter-spacing: -0.48px;
   }
   
-  .thankyou{
+  .submit-thankyou{
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -47,7 +47,7 @@
     margin-top: 36px;
   }
   
-  .review{
+  .submit-review{
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -59,7 +59,7 @@
     margin-top: 16px; 
   } 
   
-  .btn{
+  .submit-btn-container{
     padding: 16px 35px;
     justify-content: center;
     align-items: center;

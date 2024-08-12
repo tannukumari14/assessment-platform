@@ -14,6 +14,7 @@ body {
 /* mobile view */
 @media (max-width: 360px) {
   
+/* page 1 */
   /* header */
 .border-header{
 margin: auto;
@@ -104,6 +105,8 @@ width: 360px;
   background:  #4C4B49;
   border: 1px solid #4C4B49;
 }
+
+/* page 2 */
 /* assesment */
 .assessment-header{
   width: 360px;
@@ -119,5 +122,15 @@ width: 360px;
   margin-top: 113px;
   margin-right: 131px;
 }
+
+/* page 3 */
+/* Submit, submit */
+.submit-box{
+  width: 320px;
+  margin-bottom: 75px;
+  margin-top: 54px;
 }
+
+}
+
 
