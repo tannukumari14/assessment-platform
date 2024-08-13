@@ -6,7 +6,16 @@ const Assessment_Question_Page = () => {
             <div className="Page-header">
                 <div className="outer-border">
                     <div className="filter">
-                        <p className="filter-p">FILTER</p>
+                        <p className="filter-p">FILTERS</p>
+                        <button className="filter-button">
+                        FILTERS
+                            {/* <div className="lines">
+                            <div className="line1"></div>
+                            <div className="line2"></div>
+                            <div className="line3"></div>
+                            </div> */}
+                            {/* <p className="filter-mobile-view">FILTERS</p> */}
+                        </button>
                         <p className="assessment-border">Question Score</p>
                         <div className="filter-numbers">
                             <div className="all">All</div>

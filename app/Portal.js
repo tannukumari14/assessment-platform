@@ -36,11 +36,11 @@ const Portal = () => {
                         <div className="div-p">Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
                         <div className="let-start">
                             Click 'Let's Start' to begin the test.
-                            <div className="good-luck">Good Luck!</div>
+                            <div className="good-luck">Good luck!</div>
                         </div>
                         <hr className="hr"></hr>
                         <div>
-                            <Link href="component" className="start-button">Let's Start</Link>
+                            <Link href="component" className="start-button">Lets Start!</Link>
                         </div>
                     </div>
                 </div>

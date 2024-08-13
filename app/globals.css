@@ -11,6 +11,12 @@ body {
 }
 
 
+@media (min-width: 1200px) {
+  .filter-button{
+    display: none;
+  }
+
+}
 /* mobile view */
 @media (max-width: 360px) {
   
@@ -56,7 +62,8 @@ width: 360px;
 .div-p{
   width: 280px;
   margin: auto;
-  margin-bottom: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .let-start{
@@ -136,6 +143,62 @@ width: 360px;
   margin-left: 779px;
 }
 
+  /* asssessment_Question_Page */
+.filter-button{
+  display: flex;
+  width: 104px;
+  height: 39px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -131px;
+  margin-top: -95px;
+  border-radius: 6px;
+  border: 2px solid  #E0DFDA;
+  background:  #FCFAFA;
+  color:  #4C4B49;
+  font-family: "Inria Sans";
+  font-size: 16px;
+  font-weight: 700;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+/* .question-border{
+  width:360px;
+  margin-left: -131px;
+  border: 1px solid red;
+  background: white;
+} */
+ 
+/* .lines{
+  margin-right: 75px;
+  margin-top: 36px;
+}
+
+.line1{
+  margin-bottom: 5px;
+  width: 13px;
+  border: 1px solid #777671;
+}
+
+.line2{
+  margin-bottom: 5px;
+  width: 10px;
+  border: 1px solid #777671;
+}
+
+.line3{
+  margin-bottom: 5px;
+  width: 8px;
+  border: 1px solid #777671;
+}
+
+.filter-mobile-view{
+  margin-top: 20px;
+} */
+
+
+
 /* pagination */
 .box{
   width: 360px;
@@ -143,6 +206,8 @@ width: 360px;
   margin-bottom:-145px;
   margin-left: -234px; 
   background-color:white;
+  border: 1px solid #0000001A;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
 }
 
 .submit-assessment{
@@ -178,7 +243,7 @@ width: 360px;
 .div-for-score{
   width:50px;
   margin-left: -142px;
-  margin-top: 57px;
+  margin-top: 98px;
 }
 
 .image-text{
