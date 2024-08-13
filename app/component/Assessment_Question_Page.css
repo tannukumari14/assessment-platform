@@ -162,7 +162,7 @@
   
   .question1{
     color: #1F1E1C;
-    font-family: "Inter";
+    font-family: "Inria Sans";
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -235,6 +235,13 @@
     white-space: nowrap;
   }
 
+  .questions{
+    color:  #1F1E1C;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 160%; 
+    }
   
   .margin-assessment{
     margin-bottom: 136px;

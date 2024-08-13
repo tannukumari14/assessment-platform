@@ -28,11 +28,11 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +10</p>
                         </div>
                         <div className="container-questions">
-                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
-                            <p className="option">Tarapore committee</p>
-                            <p className="options">Radha Krishnan committee</p>
-                            <p className="options">Swaran Singh committee</p>
-                            <p className="options1">Balwantrai Mehta committee</p>
+                            <div className="questions">Which of the following committees recommended inclusion of fundamental duties?</div>
+                            <p className="option">Tarapore Committee</p>
+                            <p className="options">Radha Krishnan Committee</p>
+                            <p className="options">Swaran Singh Committee</p>
+                            <p className="options1">Balwantrai Mehta Committee</p>
                         </div>
 
                         <div className="p-tag">
@@ -40,11 +40,11 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +15</p>
                         </div>
                         <div className="container-questions">
-                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
-                            <p className="option">Tarapore committee</p>
-                            <p className="options">Radha Krishnan committee</p>
-                            <p className="options">Swaran Singh committee</p>
-                            <p className="options1">Balwantrai Mehta committee</p>
+                            <div className="questions">Which of the following committees recommended inclusion of fundamental duties?</div>
+                            <p className="option">Tarapore Committee</p>
+                            <p className="options">Radha Krishnan Committee</p>
+                            <p className="options">Swaran Singh Committee</p>
+                            <p className="options1">Balwantrai Mehta Committee</p>
                         </div>
 
                         <div className="p-tag">
@@ -52,11 +52,11 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +20</p>
                         </div>
                         <div className="container-questions">
-                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
-                            <p className="option">Tarapore committee</p>
-                            <p className="options">Radha Krishnan committee</p>
-                            <p className="options">Swaran Singh committee</p>
-                            <p className="options1">Balwantrai Mehta committee</p>
+                            <div className="questions">Which of the following committees recommended inclusion of fundamental duties?</div>
+                            <p className="option">Tarapore Committee</p>
+                            <p className="options">Radha Krishnan Committee</p>
+                            <p className="options">Swaran Singh Committee</p>
+                            <p className="options1">Balwantrai Mehta Committee</p>
                         </div>
 
                         <div className="p-tag">
@@ -64,11 +64,11 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +10</p>
                         </div>
                         <div className="container-questions">
-                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
-                            <p className="option">Tarapore committee</p>
-                            <p className="options">Radha Krishnan committee</p>
-                            <p className="options">Swaran Singh committee</p>
-                            <p className="options1">Balwantrai Mehta committee</p>
+                            <div className="questions">Which of the following committees recommended inclusion of fundamental duties?</div>
+                            <p className="option">Tarapore Committee</p>
+                            <p className="options">Radha Krishnan Committee</p>
+                            <p className="options">Swaran Singh Committee</p>
+                            <p className="options1">Balwantrai Mehta Committee</p>
                         </div>
 
                         <div className="p-tag">
@@ -76,11 +76,11 @@ const Assessment_Question_Page = () => {
                             <p className="score">Score +15</p>
                         </div>
                         <div className="container-questions">
-                            <div className="question1">Which of the following committees recommended inclusion of fundamental duties?</div>
-                            <p className="option">Tarapore committee</p>
-                            <p className="options">Radha Krishnan committee</p>
-                            <p className="options">Swaran Singh committee</p>
-                            <p className="options1">Balwantrai Mehta committee</p>
+                            <div className="questions">Which of the following committees recommended inclusion of fundamental duties?</div>
+                            <p className="option">Tarapore Committee</p>
+                            <p className="options">Radha Krishnan Committee</p>
+                            <p className="options">Swaran Singh Committee</p>
+                            <p className="options1">Balwantrai Mehta Committee</p>
                         </div>
                     </div>
                 </div>
