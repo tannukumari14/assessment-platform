@@ -211,9 +211,33 @@ width: 360px;
 }
 
 .submit-assessment{
-  margin-left: -234px; 
-  margin-bottom:-1245px;
+  margin-left: -157px; 
+  margin-bottom:-1390px;
 }
+
+.questions{
+  margin-bottom: -17px;
+}
+
+.question-border{
+  width: 360px;
+  margin-bottom: 430px;
+  margin-top: 181px;
+}
+
+.p-tag{
+  margin-right: 1312px;
+}
+
+
+.container-questions{
+  width: 320px;
+  height: 306px;
+  margin-right: 1589px;
+  /* margin-bottom: 181px; */
+}
+
+
 /* page 3 */
 /* Submit, submit */
 .submit-box{
