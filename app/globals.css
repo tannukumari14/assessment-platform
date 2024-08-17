@@ -161,42 +161,8 @@ width: 360px;
   font-weight: 700;
   flex-direction: column; 
   gap: 10px;
+  text-decoration: none;
 }
-
-/* .question-border{
-  width:360px;
-  margin-left: -131px;
-  border: 1px solid red;
-  background: white;
-} */
- 
-/* .lines{
-  margin-right: 75px;
-  margin-top: 36px;
-}
-
-.line1{
-  margin-bottom: 5px;
-  width: 13px;
-  border: 1px solid #777671;
-}
-
-.line2{
-  margin-bottom: 5px;
-  width: 10px;
-  border: 1px solid #777671;
-}
-
-.line3{
-  margin-bottom: 5px;
-  width: 8px;
-  border: 1px solid #777671;
-}
-
-.filter-mobile-view{
-  margin-top: 20px;
-} */
-
 
 
 /* pagination */
@@ -226,17 +192,107 @@ width: 360px;
 }
 
 .p-tag{
-  margin-right: 1312px;
+  /* margin-right: 1126px; */
+  margin-right: 1310px;
 }
 
 
 .container-questions{
   width: 320px;
   height: 306px;
-  margin-right: 1589px;
+  margin-right: 1582px;
+  /* margin-right: 1394px; */
   /* margin-bottom: 181px; */
 }
 
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #333;
+}
+
+
+
+/* .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); 
+  justify-content: center;
+  align-items: center;
+}
+
+.modal:target {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+ */
 
 /* page 3 */
 /* Submit, submit */
