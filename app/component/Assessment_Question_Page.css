@@ -178,7 +178,7 @@
   }
   
   .container-questions{
-    /* width: auto; */
+    width: 560px;
     display: flex;
     padding: 40px;
     flex-direction: column;

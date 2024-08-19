@@ -8,12 +8,24 @@ const Check_Answer=()=>{
             <div className="hr-line"></div>
             <div className="scores-border">
                 <div className="answers">
-                    <img src="Check.png"></img>
+                    <img className="check-sign" src="Check.png"></img>
                     <p className="gap">10</p>
                     <p className="gap">Q1</p>
                     <div className="image-container">
-                        <img src="Ellipses.svg" alt="Ellipses" className="base-image" />
-                        <img src="Frame.svg" alt="Frame" className="overlay-image" />
+                        <input type="checkbox" id="toggle" className="toggle-checkbox" />
+                        <label htmlFor="toggle" className="toggle-label">
+                            <img src="Ellipses.svg" alt="Ellipses" className="base-image " />
+                            <img src="Frame.svg" alt="Frame" className="overlay-image " />
+                        </label>
+
+                        {/* Questions to display */}
+                        <div className="questions">
+                            <p className="question">Which of the following committees recommended inclusion of fundamental duties?</p>
+                            <p className="option">Tarapore Committee</p>
+                            <p className="option">Radha Krishnan Committee</p>
+                            <p className="option">Swaran Singh Committee</p>
+                            <p className="option">Balwantrai Mehta Committee</p>
+                        </div>
                     </div>
                 </div>
             <div className="line-hr"></div>

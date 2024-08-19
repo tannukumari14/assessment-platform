@@ -1,5 +1,4 @@
-
-/* check_answer */
+/*  check_answer */ 
 .checker{
     display: flex;
     width: 595px;
@@ -69,4 +68,91 @@
   
   .space{
     margin-bottom: 566px;
+  }
+
+  .toggle-checkbox {
+    display: none;
+  }
+  
+  .questions {
+    display: none;
+    margin-top: 20px;
+  }
+  
+.questions {
+  display: none;
+  margin-top: 20px;
+  width: 560px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  border-radius: 12px;
+  background: #FCFAFA;
+  margin-left: -529px;
+}
+
+.toggle-checkbox:checked ~ .questions {
+  display: flex;
+}
+
+  .icon {
+    cursor: pointer;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.check-sign{
+  display: flex;
+width: 28px;
+height: 28px;
+justify-content: center;
+align-items: center;
+}
+
+  
+.option{
+  border-radius: 50%;
+  width: 140px;
+  color: #4C4B49;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  position: relative;
+  padding-left: 25px;
+  white-space: nowrap;
+}
+
+.option::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: white; 
+  border-radius: 50%; 
+  border: 1px solid black;
+}
+
+
+
+.question{
+  color:  #1F1E1C;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 160%; 
   }
