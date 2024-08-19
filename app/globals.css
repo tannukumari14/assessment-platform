@@ -18,7 +18,7 @@ body {
 
 }
 /* mobile view */
-@media (max-width: 360px) {
+@media (max-width: 567px) {
   
 /* page 1 */
   /* header */
@@ -112,137 +112,6 @@ width: 360px;
   border: 1px solid #4C4B49;
 }
 
-/* page 2 */
-/* assesment */
-
-/* assessment_header */
-.assessment-header{
-  background: #FCFAFA;
-  height: 72px;
-  margin: 0 auto; 
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.images{
-  margin: 18px 0px 18px 120px;
-  display: flex;
-  width: 112px;
-  align-items: center;
-}
-
-.logo2{
-  margin-left: 10px;
-}
-  
-.assessment-header{
-  width: 360px;
-}
-.images{
-  margin-left: 779px;
-}
-
-  /* asssessment_Question_Page */
-.filter-button{
-  display: flex;
-  width: 104px;
-  height: 39px;
-  justify-content: center;
-  align-items: center;
-  margin-left: -131px;
-  margin-top: -95px;
-  border-radius: 6px;
-  border: 2px solid  #E0DFDA;
-  background:  #FCFAFA;
-  color:  #4C4B49;
-  font-family: "Inria Sans";
-  font-size: 16px;
-  font-weight: 700;
-  flex-direction: column; 
-  gap: 10px;
-  text-decoration: none;
-}
-
-
-/* pagination */
-.box{
-  width: 360px;
-  height: 74px;
-  margin-bottom:-145px;
-  margin-left: -234px; 
-  background-color:white;
-  border: 1px solid #0000001A;
-  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
-}
-
-.submit-assessment{
-  margin-left: -157px; 
-  margin-bottom:-1390px;
-}
-
-.questions{
-  margin-bottom: -17px;
-}
-
-.question-border{
-  width: 360px;
-  margin-bottom: 430px;
-  margin-top: 181px;
-}
-
-.p-tag{
-  margin-right: 1310px;
-}
-
-
-.container-questions{
-  width: 320px;
-  height: 306px;
-  margin-right: 1582px;
-}
-
-
-.modal {
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content {
-  width: 90%;
-  max-width: 500px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: #333;
-}
-
-
 /* page 3 */
 /* Submit, submit */
 .submit-box{
@@ -287,6 +156,89 @@ width: 360px;
   display: none;
 }
 
+/* pagination */
+.box{
+  width: 360px;
+  height: 74px;
+  margin-bottom:-145px;
+  margin-left: -234px; 
+  background-color:white;
+  border: 1px solid #0000001A;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+.submit-assessment{
+  margin-left: -157px; 
+  margin-bottom:-1390px;
+}
+
+
+/* Assement_Question_Page */
+.Page-header{
+  width: 360px;
+}
+
+.outer-border{
+  border: 1px solid #4C4B49;
+  width: 320px;
+}
+
+.filter{
+  display: none;
+}
+
+.container-questions{
+  /* width: 320px; */
+  justify-content: center;
+}
+
+.question-border{
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+/* modal */
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #333;
+}
+
+
 /* Check_Answer */
 .checker{
   margin-left: 10px;
@@ -311,7 +263,6 @@ width: 360px;
 }
 
 .questions {
-  display: none;
   padding: 40px 30px;
   flex-direction: column;
   align-items: flex-start;

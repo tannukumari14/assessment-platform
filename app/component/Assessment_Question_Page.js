@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "./Assessment_Question_Page.css";
 import Modal from "./Modal";
 

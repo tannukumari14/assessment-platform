@@ -1,18 +1,24 @@
 /* assessment_question_page */
 .Page-header{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin:83px 0px 0px 355px;
+    padding: 83px;
+    margin: auto;
     color: #E0DFDA;
   }
   
   .outer-border{
     display: flex;
-}
+  }
   
+
+.filter-button{
+  display: none;
+}
+
   .filter{
     width: 284px;
     height: 400px;
@@ -168,17 +174,13 @@
     margin-top: 16px;
   }
   
-  .p-tag p {
-    margin: 0;
-    padding: 0;
-  }
   
   .score{
     color: #000;
   }
   
   .container-questions{
-    width: 560px;
+    /* width: 560px; */
     display: flex;
     padding: 40px;
     flex-direction: column;
@@ -187,7 +189,13 @@
     border-radius: 12px;
     background:  #FCFAFA;
     margin-top: -22px;
+    /* margin: auto; */
   }
+  .p-tag p {
+    margin: 0;
+    padding: 0;
+  }
+
   
   .option{
     border-radius: 50%;
@@ -215,7 +223,6 @@
     border-radius: 50%; 
     border: 1px solid black;
 }
-
   
   .options{
     border-radius: 50%;
