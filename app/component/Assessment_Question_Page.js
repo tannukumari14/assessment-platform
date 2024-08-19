@@ -11,7 +11,7 @@ const Assessment_Question_Page = () => {
                         <a href="#myModal" className="filter-button">
                             FILTERS
                         </a>
-                        <Modal />
+                        <Modal/>
                         <p className="assessment-border">Question Score</p>
                         <div className="filter-numbers">
                             <div className="all">All</div>
@@ -86,7 +86,7 @@ const Assessment_Question_Page = () => {
                             <p className="options">Radha Krishnan Committee</p>
                             <p className="options">Swaran Singh Committee</p>
                             <p className="options1">Balwantrai Mehta Committee</p>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>

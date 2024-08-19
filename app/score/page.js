@@ -5,13 +5,13 @@ import Footer from "../Footer";
 import "../globals.css";
 
 const page=()=>{
-    return(
-        <>
-        <Header/>
-        <Scores/>
-        <Check_Answer />
-        <Footer/>
-        </>
-    )
+return(
+    <>
+    <Header/>
+    <Scores/>
+    <Check_Answer />
+    <Footer/>
+    </>
+)
 }
 export default page;
