@@ -11,15 +11,21 @@ body {
 }
 
 
+@media (min-width: 1200px) {
+  .filter-button{
+    display: none;
+  }
+}
+
 
 /* mobile view */
 @media (max-width: 567px) {
-
+  
 /* page 1 */
 /* header */
 .border-header{
-  margin: auto;
-  width: 360px;
+margin: auto;
+width: 360px;
 }
 
 /* portal */
@@ -122,15 +128,15 @@ body {
 }
 
 .submit-assessment{
-  margin-top: 1747px;
+  margin-top: 1986px;
   margin-left: -151px;
 }
+
 
 /* Assement_Question_Page */
 .page-header{
   width: 360px;
-  border: 1px solid #0000001A;
-  margin-top: -154px;
+  margin-top: -134px;
 }
 
 .outer-border{
@@ -160,7 +166,7 @@ body {
 }
 
 .filter-button{
-  width: 320px;
+  margin-left: 20px;
 }
 
 /* modal */
@@ -258,7 +264,6 @@ body {
   margin-top: -37px;
 }
 
-
 .div-for-score{
   width:50px;
   margin-left: -142px;
@@ -269,7 +274,6 @@ body {
   text-align: center;
   margin-left: 20px;
 }
-
 .hr-line{
   width: 320px;
   height: 2px;
@@ -283,7 +287,6 @@ body {
   margin-left: -278px;;
   width: 320px;
 }
-
 }
 
 

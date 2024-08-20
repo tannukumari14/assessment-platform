@@ -7,7 +7,6 @@ const Assessment_Question_Page = () => {
             <div className="page-header">
                 <div className="outer-border">
                     <div className="filter">
-                        <p className="filter-p">FILTERS</p>
                         <a href="#myModal" className="filter-button">
                             FILTERS
                         </a>
