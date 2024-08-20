@@ -11,16 +11,10 @@ body {
 }
 
 
-@media (min-width: 1200px) {
-  .filter-button{
-    display: none;
-  }
-}
-
 
 /* mobile view */
 @media (max-width: 567px) {
-  
+
 /* page 1 */
 /* header */
 .border-header{
@@ -128,14 +122,15 @@ body {
 }
 
 .submit-assessment{
-  margin-top: 1627px;
+  margin-top: 1747px;
   margin-left: -151px;
 }
 
 /* Assement_Question_Page */
-.Page-header{
+.page-header{
   width: 360px;
   border: 1px solid #0000001A;
+  margin-top: -154px;
 }
 
 .outer-border{
@@ -164,8 +159,12 @@ body {
   justify-content: center;
 }
 
+.filter-button{
+  width: 320px;
+}
+
 /* modal */
-/* .modal {
+.modal {
   display: flex;
   position: fixed;
   z-index: 1;
@@ -203,7 +202,7 @@ body {
 .close:focus {
   color: #333;
 }
- */
+
 
 /* Check_Answer */
 .checker{

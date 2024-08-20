@@ -4,14 +4,14 @@ import Modal from "./Modal";
 const Assessment_Question_Page = () => {
     return (
         <>
-            <div className="Page-header">
+            <div className="page-header">
                 <div className="outer-border">
                     <div className="filter">
                         <p className="filter-p">FILTERS</p>
                         <a href="#myModal" className="filter-button">
                             FILTERS
                         </a>
-                        <Modal/>
+                        <Modal />
                         <p className="assessment-border">Question Score</p>
                         <div className="filter-numbers">
                             <div className="all">All</div>
