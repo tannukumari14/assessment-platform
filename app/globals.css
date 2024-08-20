@@ -24,8 +24,8 @@ body {
 /* page 1 */
 /* header */
 .border-header{
-margin: auto;
-width: 360px;
+  margin: auto;
+  width: 360px;
 }
 
 /* portal */
@@ -135,6 +135,7 @@ width: 360px;
 /* Assement_Question_Page */
 .Page-header{
   width: 360px;
+  border: 1px solid #0000001A;
 }
 
 .outer-border{
@@ -269,10 +270,12 @@ width: 360px;
   text-align: center;
   margin-left: 20px;
 }
+
 .hr-line{
   width: 320px;
   height: 2px;
 }
+
 .hrs{
   display: none;
 }
