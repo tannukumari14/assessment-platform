@@ -19,7 +19,7 @@ return(
                     </label>
 
                     {/* Questions to display */}
-                    <div className="questions">
+                    <div className="questions-set">
                         <p className="question">Which of the following committees recommended inclusion of fundamental duties?</p>
                         <p className="option">Tarapore Committee</p>
                         <p className="option">Radha Krishnan Committee</p>

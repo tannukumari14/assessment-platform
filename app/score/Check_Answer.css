@@ -74,12 +74,8 @@
   display: none;
 }
 
-.questions {
-  display: none;
-  margin-top: 20px;
-}
 
-.questions {
+.questions-set {
   display: none;
   margin-top: 20px;
   width: 560px;
@@ -92,7 +88,7 @@
   margin-left: -529px;
 }
 
-.toggle-checkbox:checked ~ .questions {
+.toggle-checkbox:checked ~ .questions-set {
   display: flex;
 }
 
