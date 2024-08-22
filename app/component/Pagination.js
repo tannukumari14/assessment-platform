@@ -1,4 +1,4 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import   './Pagination.css';
 
 const Pagination = ()=>{
@@ -16,7 +16,7 @@ const Pagination = ()=>{
                     <a className="circle">8</a>
                     <img className="next" src="Component2.svg" alt="Next" />
             </div>
-            <Link href="submit" className="submit-assessment">Submit</Link>
+            {/* <Link href="submit" className="submit-assessment">Submit</Link> */}
 
         </>
     )

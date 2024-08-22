@@ -7,10 +7,11 @@ const Assessment_Question_Page = () => {
             <div className="page-header">
                 <div className="outer-border">
                     <div className="filter">
-                        <a href="#myModal" className="filter-button">
+                            <p className="filter-txt">FILTERS</p>
+                        {/* <a href="#myModal" className="filter-button">
                             FILTERS
                         </a>
-                        <Modal />
+                        <Modal /> */}
                         <p className="assessment-border">Question Score</p>
                         <div className="filter-numbers">
                             <div className="all">All</div>
