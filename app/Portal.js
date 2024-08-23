@@ -12,7 +12,7 @@ const Portal = () => {
                         <div className="Instructions">Instructions</div>
                         <div className="read-instructions">Please read the instructions carefully before you begin:</div>
                         <div className="li-ul">
-                            <ul>
+                            <ul className="ul">
                                 <li>
                                     Timing: The test is timed. You have [specified time] minutes to complete all questions.
                                 </li>

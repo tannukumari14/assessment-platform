@@ -60,6 +60,12 @@ width: 360px;
   margin: auto;
 }
 
+
+.ul{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .div-p{
   width: 280px;
   margin: auto;
@@ -169,7 +175,7 @@ width: 360px;
 }
 
 .submit-assessment {
-  margin-top: 671px;
+  margin-top: 823px;
   margin-left: 187px;
   position: relative;
 }
@@ -347,6 +353,7 @@ width: 360px;
   margin-left: -278px;;
   width: 320px;
 }
+
 }
 
 
