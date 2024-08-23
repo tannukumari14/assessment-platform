@@ -7,7 +7,7 @@
   gap: 40px;
   color: #E0DFDA;
   margin-right: 96px;
-  margin-top: 66px;
+  margin-top: -3px;
 }
 
 .outer-border{
@@ -177,6 +177,7 @@
   align-items: center;
   gap: 40px;
   border: #4C4B49;
+  margin-top:-84px
 }
 
 .p-tag {

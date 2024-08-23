@@ -8,7 +8,7 @@ const Page = () => {
     return(
         <>
         <Assessment_Header/>
-        {/* <Clock/> */}
+        <Clock/>
         <Assessment_Question_Page/>
         <Footer/>
         </>
