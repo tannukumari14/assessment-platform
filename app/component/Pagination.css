@@ -48,3 +48,20 @@
   stroke-width: 1px;
   stroke: #F4D150;
 }
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle, .previous, .next {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.box p {
+  display: none; 
+}
