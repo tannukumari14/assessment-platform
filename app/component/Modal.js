@@ -4,7 +4,7 @@ const Modal = () => {
     return (
         <div className="filter-content-modal">
             <div className="div-modal">
-            <p className="filter-modal">filter</p>
+            <p className="filter-modal">filters</p>
             <p className="assessment-border-modal">Question Score</p>
             <div className="filter-numbers-modal">
                 <div className="all-modal">All</div>
