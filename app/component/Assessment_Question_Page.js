@@ -1,5 +1,5 @@
 import "./Assessment_Question_Page.css";
-// import Modal from "./Modal";
+import Modal from './Modal';
 
 const Assessment_Question_Page = () => {
     return (
@@ -8,10 +8,21 @@ const Assessment_Question_Page = () => {
                 <div className="outer-border">
                     <div className="filter">
                             <p className="filter-txt">FILTERS</p>
-                        {/* <a href="#myModal" className="filter-button">
-                            FILTERS
-                        </a>
-                        <Modal /> */}
+                            
+                            {/* modal */}
+                            <div className="container">
+                            <label htmlFor="modal-toggle" className="open-modal-button">Open Modal</label>
+                            <input type="checkbox" id="modal-toggle" className="modal-toggle"/>
+                            <div className="modal">
+                                <div className="modal-content">
+                                    <label htmlFor="modal-toggle" className="close-button">&times;</label>
+                                    <Modal />
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         <p className="assessment-border">Question Score</p>
                         <div className="filter-numbers">
                             <div className="all">All</div>

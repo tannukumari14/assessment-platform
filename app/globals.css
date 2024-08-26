@@ -11,12 +11,6 @@ body {
 }
 
 
-@media (min-width: 1200px) {
-  .filter-button{
-    display: none;
-  }
-}
-
 
 /* mobile view */
 @media (max-width: 567px) {
@@ -134,7 +128,8 @@ width: 360px;
   gap: 20px;
   width: 360px;
   box-sizing: border-box; 
-  margin-left: -30px;
+  margin-left: 3px;
+  margin-top: 15px;
 }
 
 

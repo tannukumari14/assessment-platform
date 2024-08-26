@@ -1,3 +1,50 @@
-.modal {
+/* .modal {
   display: none;
+} */
+
+
+.modal-content-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-button-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.filter-content-modal{
+  padding: 20px;
+  text-align: left;
+}
+
+.assessment-border-modal, .assessment-p-modal {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.filter-numbers-modal, .div-modal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.numbers-modal, .all-modal, .all40-modal, .un-modal, .attemp-modal {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.numbers-modal:hover, .al-modall:hover, .all40-modal:hover, .un-modal:hover, .attemp-modal:hover {
+  background-color: #f0f0f0;
 }
