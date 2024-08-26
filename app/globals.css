@@ -11,15 +11,13 @@ body {
 }
 
 
-
-/* mobile view */
 @media (max-width: 567px) {
   
 /* page 1 */
 /* header */
 .border-header{
-margin: auto;
-width: 360px;
+  margin: auto;
+  width: 360px;
 }
 
 /* portal */
@@ -170,7 +168,7 @@ width: 360px;
 }
 
 .submit-assessment {
-  margin-top: 785px;
+  margin-top: 823px;
   margin-left: 187px;
   position: relative;
 }

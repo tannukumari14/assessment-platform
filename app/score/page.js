@@ -7,10 +7,10 @@ import "../globals.css";
 const page=()=>{
 return(
     <>
-    <Header/>
-    <Scores/>
-    <Check_Answer />
-    <Footer/>
+        <Header/>
+        <Scores/>
+        <Check_Answer />
+        <Footer/>
     </>
 )
 }

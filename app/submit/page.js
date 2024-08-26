@@ -7,9 +7,9 @@ import "../globals.css";
 const page = () => {
     return(
         <>
-        <Header/>
-        <Submit/>
-        <Footer/>
+            <Header/>
+            <Submit/>
+            <Footer/>
         </>
     )
 }

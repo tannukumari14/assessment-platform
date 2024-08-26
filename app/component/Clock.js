@@ -1,7 +1,6 @@
 import "./Clock.css";
 
 const Clock = () => {
-
     return (
         <>
             <div className="clock-box">

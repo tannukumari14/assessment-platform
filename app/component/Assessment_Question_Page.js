@@ -18,12 +18,8 @@ const Assessment_Question_Page = () => {
                 </div>
 
                 <div className="outer-border">
-                    
                     <div className="filter">
                             <p className="filter-txt">FILTERS</p>
-
-
-
                         <p className="assessment-border">Question Score</p>
                         <div className="filter-numbers">
                             <div className="all">All</div>
