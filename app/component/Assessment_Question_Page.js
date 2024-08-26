@@ -4,22 +4,23 @@ import Modal from './Modal';
 const Assessment_Question_Page = () => {
     return (
         <>
-            <div className="page-header">
+            <div className="page-header">                            
+                {/* modal */}
+                <div className="container-modal">
+                    <label htmlFor="modal-toggle" className="open-modal-button">FILTERS</label>
+                    <input type="checkbox" id="modal-toggle" className="modal-toggle"/>
+                    <div className="modal">
+                        <div className="modal-content">
+                            <label htmlFor="modal-toggle" className="close-button">&times;</label>
+                            <Modal />
+                        </div>
+                    </div>
+                </div>
+
                 <div className="outer-border">
+                    
                     <div className="filter">
                             <p className="filter-txt">FILTERS</p>
-                            
-                            {/* modal */}
-                            <div className="container">
-                            <label htmlFor="modal-toggle" className="open-modal-button">Open Modal</label>
-                            <input type="checkbox" id="modal-toggle" className="modal-toggle"/>
-                            <div className="modal">
-                                <div className="modal-content">
-                                    <label htmlFor="modal-toggle" className="close-button">&times;</label>
-                                    <Modal />
-                                </div>
-                            </div>
-                        </div>
 
 
 
@@ -37,6 +38,7 @@ const Assessment_Question_Page = () => {
                             <div className="attemp">Unattempted(37)</div>
                         </div>
                     </div>
+                    
 
                     <div className="question-border">
                         <div className="p-tag">

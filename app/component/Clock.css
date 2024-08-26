@@ -28,7 +28,7 @@
 
 .second {
     color: #E68086;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 23px;
     font-style: normal;
     font-weight: 600;
@@ -82,19 +82,13 @@
 
 .second {
     color: #E68086;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 23px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
     padding: 35px 20px;
 }
+.time{
+    display: none;
 }
-
-.pink-circle{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
 }

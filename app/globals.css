@@ -170,7 +170,7 @@ width: 360px;
 }
 
 .submit-assessment {
-  margin-top: 823px;
+  margin-top: 785px;
   margin-left: 187px;
   position: relative;
 }
@@ -209,10 +209,6 @@ width: 360px;
   margin-right: 242px;
 }
 
-.filter{
-  display: none;
-}
-
 .container-questions {
   width: 320px;
   justify-content: center;
@@ -229,47 +225,6 @@ width: 360px;
 .filter-button{
   margin-left: 20px;
 }
-
-/* modal */
-/* .modal {
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content {
-  width: 90%;
-  max-width: 500px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: #333;
-} */
-
 
 /* Check_Answer */
 .checker{
