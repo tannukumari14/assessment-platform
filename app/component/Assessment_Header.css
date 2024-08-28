@@ -10,14 +10,13 @@
   align-items: center;
   text-align: center;
   width: 1200px;
-  justify-content: space-between; 
 }
 
 
 .images-logo {
   display: flex;
   justify-content: space-between;
-  flex-grow: 4;
+  flex-grow: 1;
   flex-wrap: wrap; 
 }
 

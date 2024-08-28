@@ -411,5 +411,20 @@
   color: red;
 }
 
+.lines-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18px; 
+  margin-bottom: 20px;
+}
+
+.lines-modal div {
+  width: 20px; 
+  height: 2px;
+  background-color: #000; 
+}
+
+
 }
 

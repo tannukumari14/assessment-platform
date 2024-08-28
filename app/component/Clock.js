@@ -3,6 +3,7 @@ import "./Clock.css";
 const Clock = () => {
     return (
         <>
+        <div className="clock-container">
             <div className="clock-box">
                 <div className="cercle1"></div>
                 <div className="cercle2">
@@ -11,7 +12,7 @@ const Clock = () => {
                 </div>
                 <div className="time">Remaining Time</div>
             </div>
-
+        </div>
         </>
 
     )

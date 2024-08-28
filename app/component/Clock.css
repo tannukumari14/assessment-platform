@@ -5,6 +5,13 @@
     height: 180px;
 }
 
+/* .clock-box {
+    transform: translate(392px, -36px);
+    width: 152px;
+    height: 180px;
+} */
+
+
 .cercle1 {
     background: conic-gradient(#EBE9E6 0deg 300deg, #E68086 300deg 360deg);
     width: 142px;

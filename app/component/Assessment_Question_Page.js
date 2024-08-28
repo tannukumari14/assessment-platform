@@ -7,7 +7,12 @@ const Assessment_Question_Page = () => {
             <div className="page-header">                            
                 {/* modal */}
                 <div className="container-modal">
-                    <label htmlFor="modal-toggle" className="open-modal-button">FILTERS</label>
+                    <div className="lines-modal">
+                        <div className="line1-modal"></div>
+                        <div className="line2-modal"></div>
+                        <div className="line3-modal"></div>
+                    </div>
+                    <label htmlFor="modal-toggle"  className="open-modal-button">FILTERS</label>
                     <input type="checkbox" id="modal-toggle" className="modal-toggle"/>
                     <div className="modal">
                         <div className="modal-content">
