@@ -1,27 +1,9 @@
 import "./Assessment_Question_Page.css";
-import Modal from './Modal';
 
 const Assessment_Question_Page = () => {
     return (
         <>
-            <div className="page-header">                            
-                {/* modal */}
-                {/* <div className="container-modal">
-                    <div className="lines-modal">
-                        <div className="line1-modal"></div>
-                        <div className="line2-modal"></div>
-                        <div className="line3-modal"></div>
-                    </div>
-                    <label htmlFor="modal-toggle"  className="open-modal-button">FILTERS</label>
-                    <input type="checkbox" id="modal-toggle" className="modal-toggle"/>
-                    <div className="modal">
-                        <div className="modal-content">
-                            <label htmlFor="modal-toggle" className="close-button">&times;</label>
-                            <Modal />
-                        </div>
-                    </div>
-                </div> */}
-
+            <div className="page-header">                           
                 <div className="outer-border">
                     <div className="filter">
                             <p className="filter-txt">FILTERS</p>
