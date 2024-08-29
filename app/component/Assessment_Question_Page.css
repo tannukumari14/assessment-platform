@@ -301,7 +301,7 @@
 .margin-assessment{
   margin-bottom: 136px;
 }
-
+/* 
 .modal-content{
   display: none;
 }
@@ -314,7 +314,7 @@
   display: none;
 }
 
-/* mobile view */
+mobile view
 @media (max-width: 567px) {
 .filter{
   display: none;
@@ -427,4 +427,4 @@
 
 
 }
-
+ */

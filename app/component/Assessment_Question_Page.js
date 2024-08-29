@@ -6,7 +6,7 @@ const Assessment_Question_Page = () => {
         <>
             <div className="page-header">                            
                 {/* modal */}
-                <div className="container-modal">
+                {/* <div className="container-modal">
                     <div className="lines-modal">
                         <div className="line1-modal"></div>
                         <div className="line2-modal"></div>
@@ -20,7 +20,7 @@ const Assessment_Question_Page = () => {
                             <Modal />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="outer-border">
                     <div className="filter">
