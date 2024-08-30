@@ -130,8 +130,8 @@ body {
   margin-top: 15px;
 }
 
-
 .assessment-header {
+  padding: 20px;
   width: 360px;
   margin: 0 auto; 
   display: flex;
@@ -140,38 +140,21 @@ body {
 }
 
 .two-logo {
-  width: 320px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 10px; 
-}
-
-.logo2 {
-  margin-right: 0px;
-  margin-bottom: -3px; 
-}
-
-.images-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; 
   width: 100%;
+  margin-bottom: 15px; 
 }
 
 .pagination-Div {
-  width: 360px; 
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+  width: 100%; 
+  margin-top: -18px;
 }
 
 .submit-assessment {
   margin-top: 785px;
   margin-left: 187px;
   position: relative;
-}
+} 
 
 
 .circle {
