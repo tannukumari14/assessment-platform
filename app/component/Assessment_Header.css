@@ -5,7 +5,6 @@ html {
 
 .bgcolorwhitefullwidth{
   background-color:#FCFAFA;
-  width: 360px;
 }
 
 .assessment-header{
@@ -57,12 +56,21 @@ html {
 
 @media(max-width:567px){
   .assessment-header{
-    width: 100%;
+    width: 360px;
+    /* flex-direction: column;     */
   }
   .submit-header{
     margin-left: 220px;
     margin-top: 650px;
     position: fixed;
   }
+  .bgcolorwhitefullwidth{
+    width: 360px;
+  }
+  .pagination-Div{
+    width: 360px;
+  }
+
+
 }
 
