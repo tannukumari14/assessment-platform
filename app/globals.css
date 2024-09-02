@@ -179,6 +179,7 @@ body {
 .page-header{
   width: 360px;
   margin-top: -134px;
+  margin: auto;
 }
 
 .outer-border{
