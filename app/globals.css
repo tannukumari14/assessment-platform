@@ -124,7 +124,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 360px;
+  /* width: 360px; */
+  width: 100%;
   box-sizing: border-box; 
   margin-left: 3px;
   margin-top: 15px;
