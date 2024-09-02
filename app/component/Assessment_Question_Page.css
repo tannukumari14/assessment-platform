@@ -173,11 +173,11 @@ html {
 }
 
 .question-border{
-  width: 560px;
+  /* width: 560px; */
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 40px;
   border: #4C4B49;
   margin-top: 50px;
@@ -207,11 +207,11 @@ html {
   display: flex;
   padding: 40px;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   gap: 28px;
   border-radius: 12px;
   background: #FCFAFA;
-  margin-top: -22px;
+  /* margin-top: -22px; */
 }
 
 .option{
