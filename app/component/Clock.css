@@ -1,5 +1,6 @@
 .clock-box {
-  transform: translate(392px, -36px);
+  /* transform: translate(392px, -36px); */
+  margin: auto;
   width: 152px;
   height: 180px;
 } 
