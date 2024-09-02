@@ -7,7 +7,7 @@ const Assessment_Header = () => {
         <>
             <div className='bgcolorwhitefullwidth'>
                 <div style={{ justifyContent: 'space-between' }} className="assessment-header">
-                    <div style={{ width: '998px'}}>
+                    <div style={{ width: '998px' , width: "360px"}}>
                         <div className="images-logo">
                             <div className='two-logo'>
                                 <img className="logo1" src="LogoGrp.svg" alt="Logo Group" />
