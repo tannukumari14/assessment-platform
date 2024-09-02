@@ -18,7 +18,7 @@ const Assessment_Header = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='submit-header'>
                         <Link href="submit" className="submit-assessment">Submit</Link>
                     </div>
                 </div>

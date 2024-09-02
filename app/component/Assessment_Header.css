@@ -57,9 +57,11 @@ html {
 @media(max-width:567px){
   .assessment-header{
     width: 100%;
-    
   }
-  
-
+  .submit-header{
+    margin-left: 220px;
+    margin-top: 650px;
+    position: fixed;
+  }
 }
 
