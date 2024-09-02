@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
@@ -17,7 +22,6 @@ body {
 /* header */
 .border-header{
   margin: auto;
-  /* width: 360px; */
   width: 100%;
 }
 
@@ -248,7 +252,7 @@ body {
 .submit-box{
   width: 320px;
   margin-bottom: 75px;
-  margin-top: 54px;
+  margin-top: 54px auto 75px;
 }
 
 /* page4 Scores*/

@@ -31,4 +31,8 @@
   letter-spacing: 0.28px;
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
 

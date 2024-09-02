@@ -1,3 +1,8 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
 .box{
   display: flex;
   align-items: center;

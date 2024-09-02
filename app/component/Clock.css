@@ -1,3 +1,8 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
 .clock-box {
   margin: auto;
   width: 152px;
