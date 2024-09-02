@@ -1,27 +1,32 @@
 import "./Assessment_Question_Page.css";
+import Clock from "./Clock";
+import "./Clock.css";
 
 const Assessment_Question_Page = () => {
     return (
         <>
-            <div className="page-header">                           
+            <div className="page-header">
                 <div className="outer-border">
-                    <div className="filter">
+                    <div>
+                        <Clock />
+                        <div className="filter">
                             <p className="filter-txt">FILTERS</p>
-                        <p className="assessment-border">Question Score</p>
-                        <div className="filter-numbers">
-                            <div className="all">All</div>
-                            <div className="numbers">10</div>
-                            <div className="numbers">15</div>
-                            <div className="numbers">20</div>
-                        </div>
-                        <p className="assessment-p">Questions Attempted</p>
-                        <div className="div">
-                            <div className="all40">All(40)</div>
-                            <div className="un">Attempted(3)</div>
-                            <div className="attemp">Unattempted(37)</div>
+                            <p className="assessment-border">Question Score</p>
+                            <div className="filter-numbers">
+                                <div className="all">All</div>
+                                <div className="numbers">10</div>
+                                <div className="numbers">15</div>
+                                <div className="numbers">20</div>
+                            </div>
+                            <p className="assessment-p">Questions Attempted</p>
+                            <div className="div">
+                                <div className="all40">All(40)</div>
+                                <div className="un">Attempted(3)</div>
+                                <div className="attemp">Unattempted(37)</div>
+                            </div>
                         </div>
                     </div>
-                    
+
 
                     <div className="question-border">
                         <div className="p-tag">
@@ -82,7 +87,7 @@ const Assessment_Question_Page = () => {
                             <p className="options">Radha Krishnan Committee</p>
                             <p className="options">Swaran Singh Committee</p>
                             <p className="options1">Balwantrai Mehta Committee</p>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>

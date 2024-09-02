@@ -9,7 +9,7 @@ const Page = () => {
         <>
         <div className="container-page">
         <Assessment_Header/>
-        <Clock/>
+        {/* <Clock/> */}
         <Assessment_Question_Page/>
         <Footer/>
         </div>

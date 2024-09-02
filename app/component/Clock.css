@@ -1,10 +1,10 @@
 .clock-box {
-  /* transform: translate(392px, -36px); */
   margin: auto;
   width: 152px;
   height: 180px;
+  position: relative;
+  bottom: 47px;
 } 
-
 
 .cercle1 {
     background: conic-gradient(#EBE9E6 0deg 300deg, #E68086 300deg 360deg);
@@ -43,17 +43,19 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    color:black;
 }
 
 .min-sec{
     margin-left: 25px;
     margin-top: -26px;
     word-spacing: 10px; 
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
     .clock-box {
-        margin-top: 115px;
+        /* margin-top: 115px; */
         margin-left: 20px;
         transform: none; 
         width: 152px;
@@ -124,7 +126,7 @@
   
   .container-modal{
     margin-left: 178px;
-    margin-top: -113px;
+    margin-top: -170px;
   }
   
   .mobile-modal-button {
