@@ -3,6 +3,7 @@ import "./Submit.css";
 
 const Submit = () => {
   return (
+    <div className='submit-outer-box'>
     <div className="submit-box">
       <img src="Ellipse1.svg" alt="Decorative Ellipse" />
       <img src="group.svg" alt="Group Icon" />
@@ -19,6 +20,7 @@ const Submit = () => {
       <div className="submit-btn-container">
         <Link href="score" className="submit-btn">Check Your Score</Link>
       </div>
+    </div>
     </div>
   );
 }

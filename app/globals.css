@@ -241,6 +241,11 @@ body {
 
 /* page 3 */
 /* Submit, submit */
+.submit-outer-box{
+  width: 360px;
+  margin: auto;
+}
+
 .submit-box{
   width: 320px;
   height: 422px;
