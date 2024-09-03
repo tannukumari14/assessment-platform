@@ -230,8 +230,9 @@ body {
 }
 
 .image-container{
-  margin-left: 182px;
-  /* margin: auto; */
+  /* margin-left: 182px; */
+  margin: auto;
+  position: absolute;
 }
 
 .space{
@@ -315,9 +316,9 @@ body {
 }
 
 .questions-set{
-  margin-left: -97px;
+  /* margin-left: -282x; */
   width: 320px;
-  /* margin: auto; */
+  margin: auto;
 }
 
 }

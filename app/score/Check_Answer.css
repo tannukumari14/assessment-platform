@@ -94,6 +94,7 @@ html {
 
 .toggle-checkbox:checked ~ .questions-set {
   display: flex;
+  margin: right;
 }
 
 .icon {

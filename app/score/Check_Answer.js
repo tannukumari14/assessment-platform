@@ -15,7 +15,7 @@ return(
                     <input type="checkbox" id="toggle" className="toggle-checkbox" />
                     <label htmlFor="toggle" className="toggle-label">
                         <img src="Ellipses.svg" alt="Ellipses" className="base-image " />
-                        <img src="Frame.svg" alt="Frame" className="overlay-image " />
+                        <img src="Frame.svg" alt="+sign" className="overlay-image " />
                     </label>
 
                     {/* Questions to display */}
