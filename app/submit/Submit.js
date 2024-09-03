@@ -12,7 +12,7 @@ const Submit = () => {
         <p className="submit-successfully">Successfully Submitted</p>
         <p className="submit-thankyou">Thank you for completing the test!</p>
         <p className="submit-review">
-          Review your results and keep practicing. 
+          Review your results and keep practicing. <br></br>
           Great job and keep up the hard work!
         </p>
       </div>

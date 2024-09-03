@@ -42,11 +42,7 @@ html {
 
 .hrs{
   width: 55px;
-  /* height: 0px; */
   transform: rotate(90deg);
-  /* stroke-width: 1px;
-  stroke:  #8F887C; */
-  /* margin-top: 26px; */
 }
 
 .image-text{

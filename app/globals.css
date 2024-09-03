@@ -232,7 +232,7 @@ body {
 .image-container{
   /* margin-left: 182px; */
   margin: auto;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .space{
@@ -258,7 +258,6 @@ body {
   /* margin-bottom: 75px; */
   margin: 75px auto;
 }
-
 /* page4 Scores*/
 .base{
   width: 360px;
@@ -268,30 +267,17 @@ body {
 .base1{
   /* display: inline-block; */
   flex-direction: column;
+  width: 320px;
 }
 
 .h1-score{
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
   color: #EBE9E6;
   width: 84px;
   /* margin: auto; */
   font-size: 14px;
   margin: auto;
-  /* margin-top: -37px; */
 }
 
-/* .thirty-fourth{
-  margin: auto;
-  width: 84px;
-}
-
-.your-score-Score{
-  margin: auto;
-  width: 112px;
-} */
 
 .div-for-score{
   width:50px;
@@ -320,7 +306,6 @@ body {
   width: 320px;
   margin: auto;
 }
-
 }
 
 

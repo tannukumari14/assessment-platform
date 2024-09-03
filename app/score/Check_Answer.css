@@ -39,6 +39,7 @@ html {
 .answers{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .gap{
@@ -48,8 +49,10 @@ html {
 }
 
 .image-container {
+  margin-left: auto; 
+  display: flex;
+  justify-content: flex-end; 
   position: relative;
-  margin-left: 455px;
 }
 
 .base-image {
@@ -157,3 +160,4 @@ html {
   font-weight: 600;
   line-height: 160%; 
 }
+
