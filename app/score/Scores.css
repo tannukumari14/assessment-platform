@@ -15,19 +15,21 @@ html {
   justify-content: center;
 }
 
+.base1{
+  justify-content: space-between;
+  display: flex;
+  width: 542px;
+}
+
 .h1-score{
   color: #EBE9E6;
-  margin-top: 52px;
-  margin-bottom: 73px;
-  margin-right: 50.5px;
+  align-content: center;
 }
 
 .div-for-score{
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-top: 52px;
-  margin-bottom: 73px;
+  align-items: center;
 }
 
 .Unattempted{
@@ -40,11 +42,11 @@ html {
 
 .hrs{
   width: 55px;
-  height: 0px;
+  /* height: 0px; */
   transform: rotate(90deg);
-  stroke-width: 1px;
-  stroke:  #8F887C;
-  margin-top: 26px;
+  /* stroke-width: 1px;
+  stroke:  #8F887C; */
+  /* margin-top: 26px; */
 }
 
 .image-text{
