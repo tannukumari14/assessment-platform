@@ -3,7 +3,7 @@ import   './Pagination.css';
 const Pagination = ()=>{
     return(
         <>
-        <div className="box">
+        {/* <div className="box">
             <img className="previous" src="Component1.svg" alt="Previous" />
             <a className="circle1">1</a>
             <p>...</p>
@@ -16,7 +16,7 @@ const Pagination = ()=>{
             <a className="circle">7</a>
             <a className="circle">8</a>
             <img className="next" src="Component2.svg" alt="Next" />
-            </div>
+        </div> */}
 
         </>
     )
