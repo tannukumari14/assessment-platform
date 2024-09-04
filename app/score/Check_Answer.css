@@ -43,28 +43,31 @@ html {
 }
 
 .gap{
-  margin-left: 16px;
   margin-top: 3px;
   margin-bottom: 5px;
 }
 
+
 .image-container {
-  margin-left: auto; 
-  display: flex;
-  justify-content: flex-end; 
+  position: relative; 
+}
+
+.image-wrapper {
   position: relative;
+  display: inline-block; 
 }
 
 .base-image {
-  display: block; 
+  display: block;
 }
 
 .overlay-image {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
 }
+
 
 .line-hr{
   width: 580px;
@@ -160,4 +163,6 @@ html {
   font-weight: 600;
   line-height: 160%; 
 }
+
+
 

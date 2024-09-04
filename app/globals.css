@@ -211,7 +211,6 @@ body {
 
 /* Check_Answer */
 .checker{
-  /* margin-left: 10px; */
   margin: auto;
   width: 320px;
   margin-top: 71px;
@@ -229,35 +228,14 @@ body {
   margin-left: -5px;
 }
 
-.image-container{
-  /* margin-left: 182px; */
-  margin: auto;
-  /* position: absolute; */
-}
-
 .space{
   margin-bottom: 145px;
 }
 
 .questions {
   width: 260px;
-  /* margin-left: -15px; */
 }
 
-
-/* page 3 */
-/* Submit, submit */
-/* .submit-outer-box{
-  width: 100%;
-  margin: auto;
-}
-
-.submit-box{
-  width: 320px;
-  height: 422px;
-  margin: 75px auto;
-  margin: auto;
-} */
 
 /* page4 Scores*/
 .base{
