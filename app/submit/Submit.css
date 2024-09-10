@@ -12,7 +12,6 @@
   padding: 20px;
 }
 
-
 .submit-outer-box {
   width: 100%;
   margin: auto;
@@ -20,12 +19,6 @@
   margin-top: 100px;
 }
 
-@media (max-width: 567px) {
-  .submit-box {
-    width: 320px;
-    height: 422px;
-  }
-}
 
 body,
 html {
@@ -95,4 +88,11 @@ html {
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+}
+
+@media (max-width: 567px) {
+  .submit-box {
+    width: 320px;
+    height: 422px;
+  }
 }

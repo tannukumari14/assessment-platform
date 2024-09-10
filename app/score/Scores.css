@@ -54,3 +54,50 @@ html {
 }
 
 
+/* page4 Scores*/
+@media(max-width: 567px){
+.base{
+  width: 360px;
+  height: 218px;
+}
+
+.base1{
+  flex-direction: column;
+  width: 320px;
+}
+
+.h1-score{
+  color: #EBE9E6;
+  width: 84px;
+  font-size: 14px;
+  margin: auto;
+}
+
+
+.div-for-score{
+  width:50px;
+  margin: auto;
+  gap: 20px;
+}
+
+.image-text{
+  text-align: center;
+}
+.hr-line{
+  width: 320px;
+  height: 2px;
+}
+
+.Unattempted{
+  text-align: center;
+}
+.hrs{
+  display: none;
+}
+
+.questions-set{
+  width: 320px;
+  margin: auto;
+}
+
+}

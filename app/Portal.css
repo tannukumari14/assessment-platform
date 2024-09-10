@@ -1,3 +1,8 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
 .portal{
   text-align: center;
   padding: 55px 0px 19px 0px;
@@ -114,9 +119,4 @@
 
 .margin{
   margin: 143px;
-}
-
-body,
-html {
-    overflow-x: hidden;
 }

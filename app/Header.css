@@ -1,3 +1,8 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
 .border-header {
   background: #FCFAFA;
   height: 72px;
@@ -17,9 +22,4 @@
   font-weight: 700;
   margin-bottom: 7px;
   margin-left: 5px;
-}
-
-body,
-html {
-    overflow-x: hidden;
 }

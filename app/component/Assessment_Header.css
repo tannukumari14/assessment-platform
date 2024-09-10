@@ -14,16 +14,22 @@ html {
   display: flex;
   text-align: center;
   width: 1200px;
+  justify-content: space-between;
 }
 
+/* .img-div{
+  width: 998px;
+} */
 
 .images-logo {
   display: flex;
   justify-content: space-between;
-  flex-grow: 1;
-  flex-wrap: wrap; 
-  text-align: center;
+  /* flex-grow: 1; */
+  /* flex-wrap: wrap;  */
+  /* text-align: center; */
   margin: 20px 0;
+  width: 998px;
+  border: 1px solid red;
 }
 
 .logo2{
@@ -34,7 +40,6 @@ html {
   font-weight: 700;
   margin-bottom: 7px;
 }
-
 
 .submit-assessment{
   padding: 16px 35px;
@@ -67,7 +72,9 @@ html {
   .pagination-Div{
     width: 100%;
   }
-
+  .images-logo{
+    display: block;
+  }
 
 }
 

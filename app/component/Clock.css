@@ -59,46 +59,47 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-    .clock-box {
-        /* margin-top: 115px; */
-        margin-left: 20px;
-        transform: none; 
-        width: 152px;
-        height: 180px;
-    }
+  .clock-box {
+    margin-left: 20px;
+    transform: none; 
+    width: 152px;
+    height: 180px;
+}
 
 
 .cercle1 {
-    width: 142px;
-    height: 142px;
-    border-radius: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #EBE9E6;
+  width: 142px;
+  height: 142px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: #EBE9E6;
 }
 
 .cercle2 {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: white;
-    position: relative;
-    margin-top: -130px;
-    margin-left: 10px;
-    
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: white;
+  position: relative;
+  margin-top: -130px;
+  margin-left: 10px;
+  
 }
 
 .second {
-    color: #E68086;
-    font-family: "Inter";
-    font-size: 23px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 35px 20px;
+  color: #E68086;
+  font-family: "Inter";
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 35px 20px;
 }
+
 .time{
-    display: none;
+  display: none;
 }
+
 }
 
 

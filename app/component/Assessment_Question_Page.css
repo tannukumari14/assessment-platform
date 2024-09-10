@@ -10,7 +10,6 @@ html {
   align-items: center;
   gap: 40px;
   color: #E0DFDA;
-  /* margin-right: 100px; */
   margin: auto;
   margin-top: -3px;
 }
@@ -174,11 +173,9 @@ html {
 }
 
 .question-border{
-  /* width: 560px; */
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   gap: 40px;
   border: #4C4B49;
   margin-top: 50px;
@@ -208,11 +205,9 @@ html {
   display: flex;
   padding: 40px;
   flex-direction: column;
-  /* align-items: flex-start; */
   gap: 28px;
   border-radius: 12px;
   background: #FCFAFA;
-  /* margin-top: -22px; */
 }
 
 .option{
@@ -305,4 +300,41 @@ html {
 
 .margin-assessment{
   margin-bottom: 136px;
+}
+
+
+/* Assement_Question_Page */
+
+@media(max-width:567px){
+.page-header{
+  width: 360px;
+  margin-top: -134px;
+  margin: auto;
+}
+
+.outer-border{
+  width: 320px;
+  margin-top: 242px;
+  flex-direction: column;
+}
+
+.score{
+  margin-right: 242px;
+}
+
+.container-questions {
+  width: 320px;
+  justify-content: center;
+}
+
+.question-border{
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-button{
+  margin-left: 20px;
+}
+
 }

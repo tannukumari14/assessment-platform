@@ -6,8 +6,8 @@ const Assessment_Header = () => {
     return (
         <>
             <div className='bgcolorwhitefullwidth'>
-                <div style={{ justifyContent: 'space-between' }} className="assessment-header">
-                    <div style={{ width: '998px'}}>
+                <div className="assessment-header">
+                    {/* <div className="img-div"> */}
                         <div className="images-logo">
                             <div className='two-logo'>
                                 <img className="logo1" src="LogoGrp.svg" alt="Logo Group" />
@@ -16,7 +16,7 @@ const Assessment_Header = () => {
                             <div className='pagination-Div'>
                                 <Pagination />
                             </div>
-                        </div>
+                        {/* </div> */}
                     </div>
                     <div className='submit-header'>
                         <Link href="submit" className="submit-assessment">Submit</Link>
