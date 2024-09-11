@@ -5,12 +5,7 @@ html {
 
 .page-header{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 40px;
-  color: #E0DFDA;
-  margin: auto;
   margin-top: -3px;
 }
 
@@ -296,7 +291,11 @@ html {
   font-size: 14px;
   font-weight: 600;
   line-height: 160%; 
-  }
+}
+
+.question-border{
+  width: 560px;
+}
 
 .margin-assessment{
   margin-bottom: 136px;
@@ -308,7 +307,6 @@ html {
 @media(max-width:567px){
 .page-header{
   width: 360px;
-  margin-top: -134px;
   margin: auto;
 }
 

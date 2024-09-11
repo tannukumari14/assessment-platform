@@ -7,16 +7,13 @@ const Assessment_Header = () => {
         <>
             <div className='bgcolorwhitefullwidth'>
                 <div className="assessment-header">
-                    {/* <div className="img-div"> */}
                         <div className="images-logo">
                             <div className='two-logo'>
-                                <img className="logo1" src="LogoGrp.svg" alt="Logo Group" />
-                                <img className="logo2" src="QA.png" alt="QA Logo" />
+                                <img className='lo-go' src="Logo.png"/>
                             </div>
                             <div className='pagination-Div'>
                                 <Pagination />
                             </div>
-                        {/* </div> */}
                     </div>
                     <div className='submit-header'>
                         <Link href="submit" className="submit-assessment">Submit</Link>
