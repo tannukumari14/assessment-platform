@@ -9,9 +9,10 @@ const Assessment_Question_Page = () => {
         <>
             <div className="page-header">
                 <div className="outer-border">
-                    <div>
+                    <div className="border-assessment">
+            
                         <Clock />
-                        
+
                         <Modal/>
                     </div>
 
@@ -23,8 +24,8 @@ const Assessment_Question_Page = () => {
                         <Questions/>
                     </div> 
                 </div>
-                
-            </div>
+                </div>
+           
             <div className="margin-assessment"></div>
         </>
     );

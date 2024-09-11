@@ -19,11 +19,6 @@ body {
 @media (max-width: 567px) {
   
 /* page 1 */
-/* header */
-.border-header{
-  margin: auto;
-  width: 100%;
-}
 
 /* portal */
 .portalMain{
@@ -34,7 +29,6 @@ body {
 .border{
   width: 320px;
   height: auto;
-  background: #FCFAFA;
 }
 
 .Instructions{
