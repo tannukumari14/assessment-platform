@@ -42,6 +42,14 @@ html {
   width: 100%;
 }
 
+.check-sign{
+  display: flex;
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
 .gap{
   margin-top: 3px;
   margin-bottom: 5px;
@@ -56,6 +64,21 @@ html {
   display: inline-block; 
 }
 
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle-checkbox:checked ~ .questions-set {
+  display: flex;
+  margin: right;
+}
+
 .base-image {
   display: block;
 }
@@ -65,21 +88,6 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
-}
-
-.line-hr{
-  width: 580px;
-  height: 1px;
-  background: #8F887C;
-  margin: auto;
-}
-
-.space{
-  margin-bottom: 566px;
-}
-
-.toggle-checkbox {
-  display: none;
 }
 
 .questions-set {
@@ -95,31 +103,12 @@ html {
   margin-left: -529px;
 }
 
-.toggle-checkbox:checked ~ .questions-set {
-  display: flex;
-  margin: right;
-}
-
-.icon {
-  cursor: pointer;
-}
-
-.container {
-  text-align: center;
-}
-
-.toggle-label {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.check-sign{
-  display: flex;
-  width: 28px;
-  height: 28px;
-  justify-content: center;
-  align-items: center;
+.question{
+  color:  #1F1E1C;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 160%; 
 }
 
 .option{
@@ -149,15 +138,24 @@ html {
   border: 1px solid black;
 }
 
-.question{
-  color:  #1F1E1C;
-  font-family: "Inter";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 160%; 
+.line-hr{
+  width: 580px;
+  height: 1px;
+  background: #8F887C;
+  margin: auto;
 }
 
+.space{
+  margin-bottom: 566px;
+}
 
+.icon {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+}
 /* Check_Answer */
 
 @media (max-width: 567px) {
@@ -173,17 +171,27 @@ html {
   width: 320px;
 }
 
-.line-hr{
-  width: 321px;
-  height: 1px;
-  margin-left: -5px;
+.hr-line{
+  width: 320px;
+  height: 2px;
+}
+
+.questions {
+  width: 260px;
 }
 
 .space{
   margin-bottom: 145px;
 }
 
-.questions {
-  width: 260px;
+.line-hr{
+  width: 321px;
+  height: 1px;
+  margin-left: -5px;
 }
+.questions-set{
+  width: 320px;
+  margin: auto;
+}
+
 }

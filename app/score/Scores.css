@@ -73,31 +73,22 @@ html {
   margin: auto;
 }
 
-
 .div-for-score{
   width:50px;
   margin: auto;
   gap: 20px;
 }
 
-.image-text{
-  text-align: center;
-}
-.hr-line{
-  width: 320px;
-  height: 2px;
-}
-
 .Unattempted{
   text-align: center;
 }
+
 .hrs{
   display: none;
 }
 
-.questions-set{
-  width: 320px;
-  margin: auto;
+.image-text{
+  text-align: center;
 }
 
 }

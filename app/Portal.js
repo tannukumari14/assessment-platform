@@ -7,7 +7,7 @@ const Portal = () => {
             <h2 className="portal">MCQ Test Portal</h2>
             <div className="border">
                 <div className="portal-border">
-                    <div className="hightgapInstraction"></div>
+                    <div className="hight-gap-Instraction"></div>
                     <div className="Instructions">Instructions</div>
                     <div className="read-instructions">Please read the instructions carefully before you begin:</div>
                     <div className="li-ul">
