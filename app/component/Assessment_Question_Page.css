@@ -325,7 +325,7 @@ html {
 }
 
 .border-assessment{
-  width: 101px;
+  display: flex;
 }
 
 .score{
