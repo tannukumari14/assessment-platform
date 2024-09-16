@@ -115,10 +115,6 @@ html {
   display: flex;
 }
 
-.container-modal {
-  text-align: center;
-}
-
 .open-modal-button {
   display: flex;
   align-items: center;
