@@ -4,8 +4,6 @@ html {
 }
 
 .page-header{
-  display: flex;
-  border:1px solid black;
   width:1200px;
   margin: auto;
 }
@@ -13,9 +11,8 @@ html {
 .outer-border{
   display: flex;
   justify-content:space-between;
-  border:1px solid black;
   width:894px;
-  margin-left: 101px;
+  margin-left: 103px;
 }
 
 
@@ -177,7 +174,7 @@ html {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
+  gap: 16px;
   border: #4C4B49;
   margin-top: 50px;
 }
@@ -318,7 +315,8 @@ html {
 
 .outer-border{
   width: 320px;
-  margin-top: 242px;
+  margin: 0 auto;
+  margin-top: 90px;
   flex-direction: column;
 }
 
