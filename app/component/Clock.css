@@ -7,77 +7,72 @@ html {
   width: 152px;
   height: 180px;
   position: relative;
-  left:60px;
   bottom: 47px;
+  left: 60px;
 } 
 
 .cercle1 {
   background: conic-gradient(#EBE9E6 0deg 300deg, #E68086 300deg 360deg);
   width: 142px;
   height: 142px;
-  border-radius: 100px;
+  border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.25);
   background-color: #EBE9E6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .cercle2 {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: white;
-    position: relative;
-    margin-top: -130px;
-    margin-left: 10px;
-    
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .second {
-    color: #E68086;
-    font-family: "Inter";
-    font-size: 23px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 35px 20px;
+  color: #E68086;
+  font-family: "Inter";
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .time {
-    font-family: "Inter";
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    color:black;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 180px;
+  left: 20px;
 }
 
-.min-sec{
-    margin-left: 25px;
-    margin-top: -26px;
-    word-spacing: 10px; 
-    color: black;
-}
 
-.modal-content{
-  display: none;
-}
-  
-.open-modal-button{
-  display: none;
-}
-
-.modal-toggle{
-  display: none;
+.min-sec {
+  position: absolute;
+  top: 70px;
+  word-spacing: 10px; 
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
 .clock-box {
-  left: 0px;
   transform: none; 
-  width: 152px;
-  height: 180px;
+  left: 0px;
 }
-
 
 .cercle1 {
   width: 142px;
@@ -94,9 +89,6 @@ html {
   border: 1px solid rgba(0, 0, 0, 0.25);
   background-color: white;
   position: relative;
-  margin-top: -130px;
-  margin-left: 10px;
-  
 }
 
 .second {
@@ -108,49 +100,42 @@ html {
   padding: 35px 20px;
 }
 
-.time{
+.time {
   display: none;
 }
 
 }
-  
-  /* mobile view */
+
+.modal-content {
+    display: none;
+}
+
+.open-modal-button {
+    display: none;
+}
+
+.modal-toggle {
+    display: none;
+}
+
+/* mobile view */
 @media (max-width: 567px) {
-.filter{
+.filter {
   display: none;
 }
 
-.open-modal-button{
+.open-modal-button {
   display: flex;
 }
 
-.modal-content{
+.modal-content {
   display: flex;
-}
-
-.container-modal{
-  margin-left: 178px;
-  margin-top: -170px;
-}
-
-.mobile-modal-button {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  z-index: 1000;
-  
 }
 
 .container-modal {
-  position: relative;
+  position: absolute;
+  top: 252px;
+  left: 195px;
   text-align: center;
 }
 
@@ -173,9 +158,7 @@ html {
 
 .open-modal-button::after {
   content: "FILTERS";
-  margin-left: -10px; 
 }
-
 
 .modal {
   display: none;
@@ -194,7 +177,7 @@ html {
   display: flex;
 }
 
-#modal-toggle{
+#modal-toggle {
   display: none;
 }
 
@@ -223,7 +206,6 @@ html {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start; 
-  margin-right: 8px;
   height: 18px;
 }
 
@@ -245,9 +227,4 @@ html {
   width: 10px;
   margin-left: 2px;
 }
-
-
 }
-
-
-

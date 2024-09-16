@@ -13,7 +13,7 @@ const Assessment_Question_Page = () => {
             
                         <Clock />
 
-                        <Modal/>
+                        <Modal/> 
                     </div>
 
                     <div className="question-border">
