@@ -15,6 +15,10 @@ html {
   margin-left: 103px;
 }
 
+.border-assessment{
+  width: 284px;
+}
+
 
 .filter-button{
   display: flex;
@@ -318,6 +322,10 @@ html {
   margin: 0 auto;
   margin-top: 90px;
   flex-direction: column;
+}
+
+.border-assessment{
+  width: 101px;
 }
 
 .score{

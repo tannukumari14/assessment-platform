@@ -10,9 +10,7 @@ const Assessment_Question_Page = () => {
             <div className="page-header">
                 <div className="outer-border">
                     <div className="border-assessment">
-            
                         <Clock />
-
                         <Modal/> 
                     </div>
 
