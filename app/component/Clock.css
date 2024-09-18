@@ -4,11 +4,9 @@ html {
 }
 
 .clock-container {
-  width: 152px;
-  height: 180px; 
   position: relative;
   bottom: 47px;
-  margin: auto;
+  margin: 0px 57px;
 } 
 
 .cercle1 {
@@ -27,6 +25,7 @@ html {
   height: 120px;
   border-radius: 50%;
   background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .sec-min{
@@ -50,13 +49,11 @@ html {
   font-size: 14px;
   font-weight: 600;
   position: absolute;
-  top: 180px;
+  top: 150px;
   left: 20px;
 }
 
 .min-sec {
-  /* position: absolute;
-  top: 90px; */
   word-spacing: 10px;
 }
 
@@ -64,6 +61,7 @@ html {
 .clock-container{
   height: 101px;
   width: 101px;
+  margin: 0px 0px;
 }
 .cercle1 {
   width: 100px;
@@ -109,9 +107,3 @@ html {
     display: none;
 }
 
-/* mobile view */
-@media (max-width: 567px) {
-.clock-container {
-  position: static;
-} 
-}

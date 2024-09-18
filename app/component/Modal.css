@@ -147,7 +147,7 @@ html {
 
 @media(max-width:567px){
   .container-modal{
-    margin: 40px;
+    margin: 40px 118px;
   }
   .filter{
     display: none;
