@@ -147,14 +147,17 @@ html {
 
 @media(max-width:567px){
   .container-modal{
-    margin: 40px 118px;
+    margin-top: 40px ;
   }
+
   .filter{
     display: none;
   }
+
   .filter-content-modal{
     display: block;
   }
+  
 }
 
 

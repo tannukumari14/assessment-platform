@@ -6,7 +6,7 @@ html {
 .clock-container {
   position: relative;
   bottom: 47px;
-  margin: 0px 57px;
+  text-align: center;
 } 
 
 .cercle1 {
@@ -18,6 +18,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 .cercle2 {
@@ -25,7 +26,7 @@ html {
   height: 120px;
   border-radius: 50%;
   background-color: white;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sec-min{
@@ -48,9 +49,7 @@ html {
   font-family: "Inter";
   font-size: 14px;
   font-weight: 600;
-  position: absolute;
-  top: 150px;
-  left: 20px;
+  margin-top: 20px;
 }
 
 .min-sec {
@@ -61,7 +60,6 @@ html {
 .clock-container{
   height: 101px;
   width: 101px;
-  margin: 0px 0px;
 }
 .cercle1 {
   width: 100px;

@@ -324,6 +324,7 @@ html {
 
 .border-assessment{
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
