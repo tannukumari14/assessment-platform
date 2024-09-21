@@ -308,18 +308,22 @@ html {
 
 
 /* Assement_Question_Page */
-
 @media(max-width:567px){
 .page-header{
-  width: 360px;
+  width: 100%;
   margin: auto;
 }
 
 .outer-border{
-  width: 320px;
+  width:  100%;
   margin: 0 auto;
   margin-top: 23px;
   flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+.p-tag{
+  width: 100%;
 }
 
 .border-assessment{
@@ -328,17 +332,14 @@ html {
   width: 100%;
 }
 
-.score{
-  margin-right: 242px;
-}
-
 .container-questions {
-  width: 320px;
+  width:  100%;
   justify-content: center;
 }
 
+
 .question-border{
-  width: 320px;
+  width:  100%;
   display: flex;
   justify-content: center;
 }
