@@ -8,7 +8,7 @@ const Clock = () => {
                     <div className="cercle2">
                         <div className="sec-min">
                             <div className="second">50 : 20</div>
-                            <p className="min-sec">min sec</p>
+                            <p className="min-sec">min Sec</p>
                         </div>
                     </div>
                 </div>
