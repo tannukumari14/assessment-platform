@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "./Portal.css";
 
 const Portal = () => {
@@ -39,7 +38,7 @@ const Portal = () => {
                     </div>
                     <hr className="hr"></hr>
                     <div>
-                        <Link href="component" className="start-button">Lets Start!</Link>
+                        <a href="Assessment" className="start-button">Lets Start!</a>
                     </div>
                 </div>
             </div>

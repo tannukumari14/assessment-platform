@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import './Assessment_Header.css';
 import Pagination from './Pagination';
 
@@ -18,7 +17,7 @@ const Assessment_Header = () => {
                     </div>
 
                     <div className='submit-header'>
-                        <Link href="submit" className="submit-assessment">Submit</Link>
+                        <a href="submit" className="submit-assessment">Submit</a>
                     </div>
 
                 </div>
