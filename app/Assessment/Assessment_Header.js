@@ -1,4 +1,4 @@
-import './Assessment_Header.css';
+import './assessment_header.css';
 import Pagination from './Pagination';
 
 const Assessment_Header = () => {

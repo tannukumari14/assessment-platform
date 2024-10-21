@@ -1,5 +1,5 @@
-import "./Modal.css";
-import "./Assessment_Question_Page.css";
+import "./modal.css";
+import "./assessment_questions.css";
 
 const Modal = () => {
     return (

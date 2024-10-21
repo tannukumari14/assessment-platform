@@ -1,4 +1,4 @@
-import "./Submit.css";
+import "./submit.css";
 
 const Submit = () => {
   return (

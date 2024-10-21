@@ -1,10 +1,10 @@
-import "./Assessment_Question_Page.css";
+import "./assessment_questions.css";
 import Clock from "./Clock";
 import "./Clock.css";
 import Modal from "./Modal";
-import Questions from "./Questions";
+import Question from "./Question";
 
-const Assessment_Question_Page = () => {
+const Assessment_Question = () => {
     return (
         <>
             <div className="page-header">
@@ -15,11 +15,11 @@ const Assessment_Question_Page = () => {
                     </div>
 
                     <div className="question-border">
-                        <Questions/>
-                        <Questions/>
-                        <Questions/>
-                        <Questions/>
-                        <Questions/>
+                        <Question/>
+                        <Question/>
+                        <Question/>
+                        <Question/>
+                        <Question/>
                     </div> 
                 </div>
                 </div>
@@ -29,4 +29,4 @@ const Assessment_Question_Page = () => {
     );
 }
 
-export default Assessment_Question_Page;
+export default Assessment_Question;
